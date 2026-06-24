@@ -1,0 +1,162 @@
+﻿[
+    {
+        "name":  "DNS Flush",
+        "category":  "Network Tools",
+        "subcategory":  "Network Tools",
+        "description":  "Clears the Windows DNS resolver cache.",
+        "keywords":  [
+                         "dns",
+                         "flush",
+                         "toolkit",
+                         "windows"
+                     ],
+        "risk":  "Moderate",
+        "estimated_time":  "Instant",
+        "requires_admin":  true,
+        "entry":  "run.bat",
+        "dependencies":  [
+
+                         ],
+        "author":  "Toolkit User",
+        "version":  "1.0",
+        "supports_logs":  true,
+        "supports_export":  false,
+        "important":  false,
+        "hidden":  false,
+        "module_scope":  "User",
+        "framework_protected":  false,
+        "allow_delete":  true,
+        "allow_rename":  true,
+        "allow_move":  true,
+        "folder":  "DNS_FLUSH",
+        "path":  "Modules/DNS_FLUSH"
+    },
+    {
+        "name":  "Print Status",
+        "category":  "Printer Tools",
+        "subcategory":  "Printer Tools",
+        "description":  "Displays printer and print spooler status.",
+        "keywords":  [
+                         "print",
+                         "status",
+                         "toolkit",
+                         "windows"
+                     ],
+        "risk":  "Safe",
+        "estimated_time":  "Instant",
+        "requires_admin":  false,
+        "entry":  "run.bat",
+        "dependencies":  [
+
+                         ],
+        "author":  "Toolkit User",
+        "version":  "1.0",
+        "supports_logs":  true,
+        "supports_export":  false,
+        "important":  false,
+        "hidden":  false,
+        "module_scope":  "User",
+        "framework_protected":  false,
+        "allow_delete":  true,
+        "allow_rename":  true,
+        "allow_move":  true,
+        "folder":  "PRINT_STATUS",
+        "path":  "Modules/PRINT_STATUS"
+    },
+    {
+        "name":  "Check Winget",
+        "category":  "Setup and Dependencies",
+        "subcategory":  "Setup and Dependencies",
+        "description":  "Checks whether Winget is available and working.",
+        "keywords":  [
+                         "check",
+                         "toolkit",
+                         "windows",
+                         "winget"
+                     ],
+        "risk":  "Safe",
+        "estimated_time":  "Instant",
+        "requires_admin":  false,
+        "entry":  "run.bat",
+        "dependencies":  [
+
+                         ],
+        "author":  "Toolkit User",
+        "version":  "1.0",
+        "supports_logs":  true,
+        "supports_export":  false,
+        "important":  false,
+        "hidden":  false,
+        "module_scope":  "User",
+        "framework_protected":  false,
+        "allow_delete":  true,
+        "allow_rename":  true,
+        "allow_move":  true,
+        "folder":  "CHECK_WINGET",
+        "path":  "Modules/CHECK_WINGET"
+    },
+    {
+        "name":  "Quick Summary",
+        "category":  "System Information",
+        "subcategory":  "System Information",
+        "description":  "Displays a quick system summary.",
+        "keywords":  [
+                         "quick",
+                         "summary",
+                         "toolkit",
+                         "windows"
+                     ],
+        "risk":  "Safe",
+        "estimated_time":  "Instant",
+        "requires_admin":  false,
+        "entry":  "run.bat",
+        "dependencies":  [
+
+                         ],
+        "author":  "Toolkit User",
+        "version":  "1.0",
+        "supports_logs":  true,
+        "supports_export":  false,
+        "important":  false,
+        "hidden":  false,
+        "module_scope":  "User",
+        "framework_protected":  false,
+        "allow_delete":  true,
+        "allow_rename":  true,
+        "allow_move":  true,
+        "folder":  "QUICK_SUMMARY",
+        "path":  "Modules/QUICK_SUMMARY"
+    },
+    {
+        "name":  "Run System File Checker",
+        "category":  "Windows Repair",
+        "subcategory":  "Windows Repair",
+        "description":  "Scans and repairs corrupted Windows system files.",
+        "keywords":  [
+                         "run",
+                         "system",
+                         "file",
+                         "checker"
+                     ],
+        "risk":  "Moderate",
+        "estimated_time":  "Instant",
+        "requires_admin":  true,
+        "entry":  "run.bat",
+        "dependencies":  [
+
+                         ],
+        "author":  "Toolkit User",
+        "version":  "1.0",
+        "supports_logs":  false,
+        "supports_export":  false,
+        "important":  false,
+        "hidden":  false,
+        "module_scope":  "User",
+        "framework_protected":  false,
+        "allow_delete":  true,
+        "allow_rename":  true,
+        "allow_move":  true,
+        "folder":  "RUN_SYSTEM_FILE_CHECKER",
+        "path":  "Modules/RUN_SYSTEM_FILE_CHECKER"
+    }
+]

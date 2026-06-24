@@ -1,0 +1,3 @@
+﻿# Windows Modular Toolkit Framework 2.0 - Test Log
+# Send this file back when testing fails: Logs\framework_test.log
+2026-06-23 20:31:30.778 | INFO | Startup | Toolkit launched | Test logger initialized
