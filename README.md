@@ -74,3 +74,4 @@ Most users will spend their time in:
 * Repository Manager
 
 Framework Center is typically used only when configuring, repairing, validating, or extending the toolkit.
+
