@@ -1,5 +1,9 @@
 <img src="Additional Files/Screenshots/NorthStar.png" alt="Alt Text" width="800">
 
+If you like my work:
+patreon: rageofabyss
+buy_me_a_coffee: https://buymeacoffee.com/rageofabyss
+
 
 WINDOWS MODULAR TOOLKIT
 Framework Edition 2.0
@@ -78,6 +82,94 @@ Most users will spend their time in:
 
 Framework Center is typically used only when configuring, repairing, validating, or extending the toolkit.
 
-If you like my work:
-patreon: rageofabyss
-buy_me_a_coffee: https://buymeacoffee.com/rageofabyss
+==============================================================================================================
+What is NorthStar?
+
+NorthStar is a portable Windows administration framework designed to organize, manage, launch, validate, and expand collections of IT tools without requiring installation, databases, or cloud services.
+
+It began as a simple Windows toolkit project and evolved through multiple generations:
+
+* **Spark (Alpha)** – Proof of concept. A collection of utilities bundled into a single toolkit.
+* **Forge (1.0)** – Expansion phase. Added management systems, validation tools, dashboards, builders, and large-scale functionality.
+* **NorthStar (2.0)** – Framework phase. Focused on structure, portability, scalability, and long-term maintainability.
+
+## Core Philosophy
+
+NorthStar is built around several principles:
+
+* Portable and self-contained
+* No installer required
+* No database dependency
+* No cloud dependency
+* Human-readable and editable
+* Modular and expandable
+* Capable of operating with zero user modules installed
+
+The framework separates infrastructure from content, allowing the framework to remain stable while modules can be added, removed, shared, or upgraded independently.
+
+## Major Systems
+
+### Framework
+
+The framework provides the architecture, management tools, validation systems, repair systems, documentation, search capabilities, and administrative functions.
+
+### Modules
+
+Modules are individual tools that perform specific tasks.
+
+Examples include:
+
+* DNS Flush
+* Print Status
+* Quick Summary
+* Run System File Checker
+* Check Winget
+
+Modules can be created, validated, packaged, imported, exported, shared, and removed without affecting the framework itself.
+
+### Repository
+
+The Repository provides structured storage for:
+
+* Software
+* Installers
+* Scripts
+* Documents
+* Archives
+* Packages
+* Disk Images
+
+It serves as a centralized content library managed through Repository Manager.
+
+### Workspace
+
+Workspace provides personal shortcuts, notes, module links, category links, and repository links.
+
+It acts as a customizable personal dashboard without altering the framework.
+
+## Key Features
+
+* Dynamic module discovery
+* Search Center
+* Launch Center
+* Repository Manager
+* Workspace Manager
+* Framework Repair
+* Framework Validation
+* Module Builders
+* Import and Export systems
+* Winget integration
+* Portable operation
+
+## Why NorthStar?
+
+The name represents the framework's purpose.
+
+A north star provides direction.
+
+NorthStar does not attempt to be a single tool. Instead, it provides a structured framework that helps users organize, discover, manage, and expand growing collections of tools, modules, scripts, software, and resources without losing control of the environment.
+
+The goal is not simply to launch tools.
+
+The goal is to provide a framework that can continue growing without becoming unmanageable.
+
