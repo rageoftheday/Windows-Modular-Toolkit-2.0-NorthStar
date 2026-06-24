@@ -1,5 +1,7 @@
 <img src="Additional Files/Screenshots/NorthStar.png" alt="Alt Text" width="800">
 
+additional photos in Additional Files/Screenshots
+
 If you like my work:
 patreon: rageofabyss
 buy_me_a_coffee: https://buymeacoffee.com/rageofabyss
