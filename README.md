@@ -78,3 +78,6 @@ Most users will spend their time in:
 
 Framework Center is typically used only when configuring, repairing, validating, or extending the toolkit.
 
+If you like my work:
+patreon: rageofabyss
+buy_me_a_coffee: https://buymeacoffee.com/rageofabyss
