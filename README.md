@@ -82,7 +82,9 @@ Most users will spend their time in:
 
 Framework Center is typically used only when configuring, repairing, validating, or extending the toolkit.
 
-==============================================================================================================
+================================================================
+
+
 What is NorthStar?
 
 NorthStar is a portable Windows administration framework designed to organize, manage, launch, validate, and expand collections of IT tools without requiring installation, databases, or cloud services.
