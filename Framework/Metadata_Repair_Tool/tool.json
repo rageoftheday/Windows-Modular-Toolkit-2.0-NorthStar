@@ -1,0 +1,33 @@
+{
+  "name": "Metadata Repair Tool",
+  "category": "Toolkit Management",
+  "subcategory": "Builders",
+  "description": "Repairs or improves user module metadata.",
+  "keywords": [
+    "metadata",
+    "repair",
+    "json",
+    "validator",
+    "normalize",
+    "categories",
+    "risk",
+    "toolkit",
+    "modules",
+    "maintenance"
+  ],
+  "version": "1.0",
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": true,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": true,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Medium",
+  "framework_category": "Builders"
+}

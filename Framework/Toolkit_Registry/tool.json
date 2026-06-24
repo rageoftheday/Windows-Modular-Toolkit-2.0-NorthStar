@@ -1,0 +1,33 @@
+{
+  "name": "Toolkit Registry Builder",
+  "category": "Toolkit Management",
+  "subcategory": "Validation & Health",
+  "description": "Builds and validates the toolkit registry cache. (Hidden legacy/absorbed entry retained for compatibility.)",
+  "keywords": [
+    "registry",
+    "cache",
+    "index",
+    "metadata",
+    "toolkit",
+    "launcher",
+    "management",
+    "validation",
+    "statistics",
+    "modules"
+  ],
+  "version": "1.0",
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": false,
+  "supports_export": true,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": true,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "High",
+  "framework_category": "Validation & Health"
+}

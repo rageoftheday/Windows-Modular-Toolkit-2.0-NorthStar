@@ -1,0 +1,29 @@
+{
+  "name": "Enhanced Dashboard",
+  "category": "Toolkit Management",
+  "subcategory": "Audit & Reporting",
+  "description": "Shows system, toolkit status, and smart recommendations summary. (Hidden legacy/absorbed entry retained for compatibility.)",
+  "keywords": [
+    "dashboard",
+    "system",
+    "health",
+    "monitoring",
+    "toolkit",
+    "recommendations"
+  ],
+  "version": "1.1",
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": true,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": true,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Medium",
+  "framework_category": "Audit & Reporting"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Tool Modifier",
+  "category": "Toolkit Management",
+  "subcategory": "Builders",
+  "description": "Guided editor for user module metadata without raw JSON editing.",
+  "keywords": [
+    "tool",
+    "modifier",
+    "metadata",
+    "edit",
+    "keywords",
+    "dependencies",
+    "builder",
+    "module"
+  ],
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": false,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Medium",
+  "framework_category": "Builders"
+}

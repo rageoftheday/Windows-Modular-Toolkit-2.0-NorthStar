@@ -1,0 +1,14 @@
+RC Module Count and Folder Fix Notes
+====================================
+
+Changes made:
+- Renamed all folders under Modules\ to UPPER_UNDERSCORE format.
+- Renamed Defrag_Anal to DEFRAG_ANALYZE.
+- Updated Defrag module display name to Defrag Analyze.
+- Regenerated Cache\toolkit_registry.json so the registry includes all visible user modules.
+- Updated the main menu count logic to use the same live scan as Open Modules.
+- Main menu labels now use Available Modules and Module Categories.
+
+Module folders renamed: 128
+Framework entries preserved: 56
+User module entries generated: 128

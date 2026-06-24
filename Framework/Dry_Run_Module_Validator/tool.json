@@ -1,0 +1,28 @@
+{
+  "name": "Dry Run Module Validator",
+  "category": "Toolkit Management",
+  "subcategory": "Validation & Health",
+  "description": "Checks module metadata, entry files, and PowerShell syntax without running tools.",
+  "keywords": [
+    "dry run",
+    "validator",
+    "syntax",
+    "modules",
+    "toolkit"
+  ],
+  "version": "1.0",
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": true,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "High",
+  "framework_category": "Validation & Health"
+}

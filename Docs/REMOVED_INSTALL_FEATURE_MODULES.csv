@@ -1,0 +1,17 @@
+module,reason
+Do_Psmod_All,Installs configured PowerShell modules.
+Do_RSAT_All,Installs RSAT management tools.
+Feat_Hyperv,Enables/installs Hyper-V Windows feature.
+Feat_Hyperv_Disable,Disables Hyper-V Windows feature; separated with feature-management modules.
+Feat_WSL,Enables/installs Windows Subsystem for Linux feature.
+Feat_WSL_Disable,Disables WSL feature; separated with feature-management modules.
+PowerShell_Windows_Update_Install,Installs Windows updates.
+Powershell_Modules,Installs/configures PowerShell modules.
+Psmod_Carbon,Installs Carbon PowerShell module.
+Psmod_Excel,Installs ImportExcel PowerShell module.
+Psmod_Wupdate,Installs PSWindowsUpdate PowerShell module.
+RSAT_Ad,Installs RSAT Active Directory tools.
+RSAT_DNS,Installs RSAT DNS tools.
+RSAT_GP,Installs RSAT Group Policy tools.
+RSAT_Hyperv,Installs RSAT Hyper-V tools.
+WSL_Install,Installs Windows Subsystem for Linux.

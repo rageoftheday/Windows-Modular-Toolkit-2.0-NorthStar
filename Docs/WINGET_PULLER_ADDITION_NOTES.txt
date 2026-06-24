@@ -1,0 +1,22 @@
+WINGET PULLER ADDITION NOTES
+============================
+
+Added Winget Puller as a framework acquisition tool under Repository Manager.
+
+Path:
+Main Menu -> [R] Repository Manager -> [3] Winget Puller
+
+Features:
+- Winget preflight check.
+- Missing Winget help/options.
+- Search Winget packages.
+- Install now with confirmation.
+- Copy install command.
+- Automatically create Winget install modules with run.ps1, run.bat, and tool.json.
+- Save Winget package records to Repository\Software.
+- Help Center guide added.
+
+Safety:
+- No silent installs.
+- Install Now asks before running.
+- Generated modules ask before running.

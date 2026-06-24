@@ -1,0 +1,134 @@
+{
+  "detections": [
+    {
+      "name": ".NET Project",
+      "indicators": [
+        ".sln",
+        ".csproj",
+        ".vbproj",
+        ".fsproj"
+      ],
+      "category": "Development Tools",
+      "subcategory": ".NET",
+      "description": "Detects Microsoft .NET and Visual Studio projects."
+    },
+    {
+      "name": "Python Project",
+      "indicators": [
+        "pyproject.toml",
+        "setup.py",
+        "requirements.txt",
+        "Pipfile"
+      ],
+      "category": "Development Tools",
+      "subcategory": "Python",
+      "description": "Detects Python projects."
+    },
+    {
+      "name": "NodeJS Project",
+      "indicators": [
+        "package.json",
+        "package-lock.json",
+        "yarn.lock",
+        "pnpm-lock.yaml"
+      ],
+      "category": "Development Tools",
+      "subcategory": "NodeJS",
+      "description": "Detects NodeJS and JavaScript package projects."
+    },
+    {
+      "name": "PowerShell Project",
+      "indicators": [
+        ".ps1",
+        ".psm1",
+        ".psd1"
+      ],
+      "category": "Development Tools",
+      "subcategory": "PowerShell",
+      "description": "Detects PowerShell scripts and modules."
+    },
+    {
+      "name": "Java Project",
+      "indicators": [
+        "pom.xml",
+        "build.gradle",
+        "settings.gradle"
+      ],
+      "category": "Development Tools",
+      "subcategory": "Java",
+      "description": "Detects Maven and Gradle Java projects."
+    },
+    {
+      "name": "Rust Project",
+      "indicators": [
+        "Cargo.toml"
+      ],
+      "category": "Development Tools",
+      "subcategory": "Rust",
+      "description": "Detects Rust Cargo projects."
+    },
+    {
+      "name": "Go Project",
+      "indicators": [
+        "go.mod",
+        "go.sum"
+      ],
+      "category": "Development Tools",
+      "subcategory": "Go",
+      "description": "Detects Go module projects."
+    },
+    {
+      "name": "C/C++ Project",
+      "indicators": [
+        "CMakeLists.txt",
+        "Makefile",
+        ".vcxproj"
+      ],
+      "category": "Development Tools",
+      "subcategory": "C/C++",
+      "description": "Detects C/C++ build projects."
+    },
+    {
+      "name": "Photoshop Project",
+      "indicators": [
+        ".psd",
+        ".psb"
+      ],
+      "category": "Development Tools",
+      "subcategory": "Photoshop",
+      "description": "Detects Photoshop design files."
+    },
+    {
+      "name": "Blender Project",
+      "indicators": [
+        ".blend"
+      ],
+      "category": "Development Tools",
+      "subcategory": "Blender",
+      "description": "Detects Blender 3D project files."
+    },
+    {
+      "name": "CAD Project",
+      "indicators": [
+        ".dwg",
+        ".dxf",
+        ".stl",
+        ".3mf"
+      ],
+      "category": "Development Tools",
+      "subcategory": "CAD / 3D",
+      "description": "Detects CAD, 3D model, and fabrication files."
+    },
+    {
+      "name": "Game Mod",
+      "indicators": [
+        ".pak",
+        ".mod",
+        "manifest.json"
+      ],
+      "category": "Development Tools",
+      "subcategory": "Game Modding",
+      "description": "Detects common game mod package indicators."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "toolkit_name": "WINDOWS MODULAR TOOLKIT",
+  "version": "3.0",
+
+  "theme": {
+    "color": "Cyan",
+    "show_banners": true,
+    "clear_screen_on_launch": true
+  },
+
+  "logging": {
+    "enabled": true,
+    "runtime_log": true,
+    "error_log": true,
+    "max_log_size_mb": 25
+  },
+
+  "analytics": {
+    "enabled": true,
+    "retain_runtime_history_days": 30
+  },
+
+  "runtime": {
+    "safe_mode": false,
+    "debug_mode": false,
+    "auto_validate_registry": true
+  },
+
+  "registry": {
+    "auto_rebuild": false,
+    "backup_before_rebuild": false
+  },
+
+  "modules": {
+    "allow_bat_modules": true,
+    "prefer_powershell": true
+  }
+}

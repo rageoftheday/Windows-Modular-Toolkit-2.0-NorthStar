@@ -1,0 +1,27 @@
+{
+  "name": "Deleted Items History",
+  "category": "Toolkit Management",
+  "subcategory": "Backup & Recovery",
+  "description": "Shows an informational history of deleted user modules. This does not restore deleted items.",
+  "keywords": [
+    "deleted",
+    "history",
+    "trash",
+    "remove",
+    "audit"
+  ],
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": false,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "High",
+  "framework_category": "Backup & Recovery"
+}

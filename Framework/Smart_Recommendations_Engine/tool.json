@@ -1,0 +1,31 @@
+{
+  "name": "Smart Recommendations Engine",
+  "category": "Toolkit Management",
+  "subcategory": "Configuration",
+  "description": "Analyzes system and toolkit signals to recommend useful tools.",
+  "keywords": [
+    "smart",
+    "recommendations",
+    "diagnostics",
+    "health",
+    "toolkit",
+    "advisor",
+    "aliases",
+    "chains"
+  ],
+  "version": "1.3",
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": true,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Medium",
+  "framework_category": "Configuration"
+}

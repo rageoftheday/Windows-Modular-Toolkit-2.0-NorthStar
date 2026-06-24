@@ -1,0 +1,22 @@
+{
+  "name": "Validate Modules",
+  "category": "Toolkit Management",
+  "subcategory": "Validation & Health",
+  "description": "Validates toolkit modules and metadata.",
+  "risk": "Safe",
+  "requires_admin": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "keywords": [],
+  "version": "1.0",
+  "supports_logs": false,
+  "supports_export": false,
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "High",
+  "framework_category": "Validation & Health"
+}

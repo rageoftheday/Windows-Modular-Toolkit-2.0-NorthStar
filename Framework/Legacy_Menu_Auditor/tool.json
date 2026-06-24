@@ -1,0 +1,31 @@
+{
+  "name": "Legacy Menu Auditor",
+  "category": "Toolkit Management",
+  "subcategory": "Audit & Reporting",
+  "description": "Audits legacy BAT menu systems for dead labels and orphaned menu paths.",
+  "keywords": [
+    "legacy",
+    "menu",
+    "goto",
+    "audit",
+    "batch",
+    "architecture",
+    "cleanup",
+    "toolkit"
+  ],
+  "version": "1.0",
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": true,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": true,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Medium",
+  "framework_category": "Audit & Reporting"
+}

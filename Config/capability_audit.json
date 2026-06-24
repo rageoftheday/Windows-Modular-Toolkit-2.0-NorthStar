@@ -1,0 +1,605 @@
+﻿[
+    {
+        "name":  "Add Module Builder",
+        "folder":  "Add_Module_Builder",
+        "family":  "Metadata Family",
+        "action":  "MERGE",
+        "destination":  "Metadata Center",
+        "reason":  "Metadata repair/edit/risk functions should become metadata modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Add_Module_Builder"
+    },
+    {
+        "name":  "Advanced Search Tools",
+        "folder":  "Advanced_Search_Tools",
+        "family":  "Search Family",
+        "action":  "MERGE",
+        "destination":  "Search Center",
+        "reason":  "Search/browse/launcher behavior should become a Search Center mode.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Advanced_Search_Tools"
+    },
+    {
+        "name":  "Audit Center",
+        "folder":  "Audit_Center",
+        "family":  "Backup / Export Family",
+        "action":  "MERGE",
+        "destination":  "Backup / Export Center",
+        "reason":  "Backup/export cleanup should become modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Audit_Center"
+    },
+    {
+        "name":  "Backup File Cleanup",
+        "folder":  "Backup_File_Cleanup",
+        "family":  "Validation / Health Family",
+        "action":  "MERGE",
+        "destination":  "Validation Center",
+        "reason":  "Validation modes should live inside Validation Center.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Backup_File_Cleanup"
+    },
+    {
+        "name":  "Bootstrap Integration Manager",
+        "folder":  "Bootstrap_Integration_Manager",
+        "family":  "Framework Maintenance Family",
+        "action":  "REVIEW",
+        "destination":  "Framework Center",
+        "reason":  "May be a framework maintenance mode or development-only helper.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Bootstrap_Integration_Manager"
+    },
+    {
+        "name":  "Capability Audit",
+        "folder":  "Capability_Audit",
+        "family":  "Framework Maintenance Family",
+        "action":  "REVIEW",
+        "destination":  "Framework Center",
+        "reason":  "May be a framework maintenance mode or development-only helper.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Capability_Audit"
+    },
+    {
+        "name":  "Category Architecture Manager",
+        "folder":  "Category_Architecture_Manager",
+        "family":  "Metadata Family",
+        "action":  "MERGE",
+        "destination":  "Metadata Center",
+        "reason":  "Metadata repair/edit/risk functions should become metadata modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Category_Architecture_Manager"
+    },
+    {
+        "name":  "Category Browser",
+        "folder":  "Category_Browser",
+        "family":  "Search Family",
+        "action":  "MERGE",
+        "destination":  "Search Center",
+        "reason":  "Search/browse/launcher behavior should become a Search Center mode.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Category_Browser"
+    },
+    {
+        "name":  "Category Manager",
+        "folder":  "Category_Manager",
+        "family":  "Category Family",
+        "action":  "KEEP",
+        "destination":  "Category Center",
+        "reason":  "Primary category management capability.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Category_Manager"
+    },
+    {
+        "name":  "Category Toolkit Launcher",
+        "folder":  "Category_Toolkit_Launcher",
+        "family":  "Search Family",
+        "action":  "MERGE",
+        "destination":  "Search Center",
+        "reason":  "Search/browse/launcher behavior should become a Search Center mode.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Category_Toolkit_Launcher"
+    },
+    {
+        "name":  "Compatibility Center",
+        "folder":  "Compatibility_Center",
+        "family":  "Validation / Health Family",
+        "action":  "REVIEW",
+        "destination":  "Validation Center / Dashboard Center",
+        "reason":  "Health-style tools may belong under Validation or Dashboard depending on UI.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Compatibility_Center"
+    },
+    {
+        "name":  "Dashboard",
+        "folder":  "Dashboard_Health_Center",
+        "family":  "Validation / Health Family",
+        "action":  "MERGE",
+        "destination":  "Validation Center",
+        "reason":  "Validation modes should live inside Validation Center.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Dashboard_Health_Center"
+    },
+    {
+        "name":  "Deleted Items History",
+        "folder":  "Deleted_Items_History",
+        "family":  "Backup / Export Family",
+        "action":  "MERGE",
+        "destination":  "Backup / Export Center",
+        "reason":  "Backup/export cleanup should become modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Deleted_Items_History"
+    },
+    {
+        "name":  "Download Manager",
+        "folder":  "Download_Manager",
+        "family":  "Installer Family",
+        "action":  "MERGE",
+        "destination":  "Installer Center",
+        "reason":  "Installer/download/package helpers should become installer modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Download_Manager"
+    },
+    {
+        "name":  "Dry Run Module Validator",
+        "folder":  "Dry_Run_Module_Validator",
+        "family":  "Metadata Family",
+        "action":  "MERGE",
+        "destination":  "Metadata Center",
+        "reason":  "Metadata repair/edit/risk functions should become metadata modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Dry_Run_Module_Validator"
+    },
+    {
+        "name":  "Duplicate Tool Scanner",
+        "folder":  "Duplicate_Tool_Scanner",
+        "family":  "Search Family",
+        "action":  "MERGE",
+        "destination":  "Search Center",
+        "reason":  "Search/browse/launcher behavior should become a Search Center mode.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Duplicate_Tool_Scanner"
+    },
+    {
+        "name":  "Dynamic Toolkit Launcher",
+        "folder":  "Dynamic_Toolkit_Launcher",
+        "family":  "Search Family",
+        "action":  "MERGE",
+        "destination":  "Search Center",
+        "reason":  "Search/browse/launcher behavior should become a Search Center mode.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Dynamic_Toolkit_Launcher"
+    },
+    {
+        "name":  "Enhanced Add Tool Wizard (Retired)",
+        "folder":  "Enhanced_Add_Tool_Wizard",
+        "family":  "General / Review Family",
+        "action":  "REVIEW",
+        "destination":  "Unknown",
+        "reason":  "Needs human review before merge or retire.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Enhanced_Add_Tool_Wizard"
+    },
+    {
+        "name":  "Enhanced Dashboard",
+        "folder":  "Enhanced_Dashboard",
+        "family":  "Validation / Health Family",
+        "action":  "MERGE",
+        "destination":  "Validation Center",
+        "reason":  "Validation modes should live inside Validation Center.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Enhanced_Dashboard"
+    },
+    {
+        "name":  "Export Center",
+        "folder":  "Export_Center",
+        "family":  "Dashboard Family",
+        "action":  "REVIEW",
+        "destination":  "Dashboard Center",
+        "reason":  "Compare with Dashboard Center before retire/merge.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Export_Center"
+    },
+    {
+        "name":  "Framework Integrity Check",
+        "folder":  "Framework_Integrity_Check",
+        "family":  "Validation / Health Family",
+        "action":  "REVIEW",
+        "destination":  "Validation Center / Dashboard Center",
+        "reason":  "Health-style tools may belong under Validation or Dashboard depending on UI.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Framework_Integrity_Check"
+    },
+    {
+        "name":  "Framework Repair",
+        "folder":  "Framework_Repair",
+        "family":  "Validation / Health Family",
+        "action":  "MERGE",
+        "destination":  "Validation Center",
+        "reason":  "Validation modes should live inside Validation Center.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Framework_Repair"
+    },
+    {
+        "name":  "GitHub Puller",
+        "folder":  "GitHub_Puller",
+        "family":  "Installer Family",
+        "action":  "MERGE",
+        "destination":  "Installer Center",
+        "reason":  "Installer/download/package helpers should become installer modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\GitHub_Puller"
+    },
+    {
+        "name":  "Header Normalization Manager",
+        "folder":  "Header_Normalization_Manager",
+        "family":  "Framework Maintenance Family",
+        "action":  "REVIEW",
+        "destination":  "Framework Center",
+        "reason":  "May be a framework maintenance mode or development-only helper.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Header_Normalization_Manager"
+    },
+    {
+        "name":  "How To Guide",
+        "folder":  "How_To_Guide",
+        "family":  "Framework Maintenance Family",
+        "action":  "REVIEW",
+        "destination":  "Framework Center",
+        "reason":  "May be a framework maintenance mode or development-only helper.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\How_To_Guide"
+    },
+    {
+        "name":  "Legacy Menu Auditor",
+        "folder":  "Legacy_Menu_Auditor",
+        "family":  "General / Review Family",
+        "action":  "REVIEW",
+        "destination":  "Unknown",
+        "reason":  "Needs human review before merge or retire.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Legacy_Menu_Auditor"
+    },
+    {
+        "name":  "Menu Consistency Normalizer",
+        "folder":  "Menu_Consistency_Normalizer",
+        "family":  "Metadata Family",
+        "action":  "MERGE",
+        "destination":  "Metadata Center",
+        "reason":  "Metadata repair/edit/risk functions should become metadata modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Menu_Consistency_Normalizer"
+    },
+    {
+        "name":  "Metadata Description Fixer",
+        "folder":  "Metadata_Description_Fixer",
+        "family":  "Metadata Family",
+        "action":  "MERGE",
+        "destination":  "Metadata Center",
+        "reason":  "Metadata repair/edit/risk functions should become metadata modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Metadata_Description_Fixer"
+    },
+    {
+        "name":  "Metadata Engine",
+        "folder":  "Metadata_Foundation",
+        "family":  "Metadata Family",
+        "action":  "KEEP",
+        "destination":  "Metadata Center",
+        "reason":  "Foundation service and center owner for metadata.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Metadata_Foundation"
+    },
+    {
+        "name":  "Metadata Library Manager",
+        "folder":  "Metadata_Library_Manager",
+        "family":  "Metadata Family",
+        "action":  "MERGE",
+        "destination":  "Metadata Center",
+        "reason":  "Metadata repair/edit/risk functions should become metadata modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Metadata_Library_Manager"
+    },
+    {
+        "name":  "Metadata Manager",
+        "folder":  "Metadata_Manager",
+        "family":  "Metadata Family",
+        "action":  "MERGE",
+        "destination":  "Metadata Center",
+        "reason":  "Metadata repair/edit/risk functions should become metadata modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Metadata_Manager"
+    },
+    {
+        "name":  "Metadata Repair Tool",
+        "folder":  "Metadata_Repair_Tool",
+        "family":  "Metadata Family",
+        "action":  "MERGE",
+        "destination":  "Metadata Center",
+        "reason":  "Metadata repair/edit/risk functions should become metadata modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Metadata_Repair_Tool"
+    },
+    {
+        "name":  "Migrated Module Cleanup Manager",
+        "folder":  "Migrated_Module_Cleanup_Manager",
+        "family":  "Metadata Family",
+        "action":  "MERGE",
+        "destination":  "Metadata Center",
+        "reason":  "Metadata repair/edit/risk functions should become metadata modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Migrated_Module_Cleanup_Manager"
+    },
+    {
+        "name":  "Module Audit",
+        "folder":  "Module_Audit",
+        "family":  "Metadata Family",
+        "action":  "MERGE",
+        "destination":  "Metadata Center",
+        "reason":  "Metadata repair/edit/risk functions should become metadata modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Module_Audit"
+    },
+    {
+        "name":  "Module Health Check",
+        "folder":  "Module_Health_Check",
+        "family":  "Validation / Health Family",
+        "action":  "MERGE",
+        "destination":  "Validation Center",
+        "reason":  "Validation modes should live inside Validation Center.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Module_Health_Check"
+    },
+    {
+        "name":  "Module Inventory Report",
+        "folder":  "Module_Inventory_Report",
+        "family":  "Category Family",
+        "action":  "MERGE",
+        "destination":  "Category Center / Search Center",
+        "reason":  "Category browsing/search/architecture should become modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Module_Inventory_Report"
+    },
+    {
+        "name":  "Module Manager",
+        "folder":  "Module_Manager",
+        "family":  "Framework Maintenance Family",
+        "action":  "REVIEW",
+        "destination":  "Framework Center",
+        "reason":  "May be a framework maintenance mode or development-only helper.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Module_Manager"
+    },
+    {
+        "name":  "Module Rationalization Engine",
+        "folder":  "Module_Rationalization_Engine",
+        "family":  "Framework Maintenance Family",
+        "action":  "REVIEW",
+        "destination":  "Framework Center",
+        "reason":  "May be a framework maintenance mode or development-only helper.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Module_Rationalization_Engine"
+    },
+    {
+        "name":  "Module Validator",
+        "folder":  "Module_Validator",
+        "family":  "Search Family",
+        "action":  "MERGE",
+        "destination":  "Search Center",
+        "reason":  "Search/browse/launcher behavior should become a Search Center mode.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Module_Validator"
+    },
+    {
+        "name":  "Quick Actions Hub",
+        "folder":  "Quick_Actions_Hub",
+        "family":  "Validation / Health Family",
+        "action":  "MERGE",
+        "destination":  "Validation Center",
+        "reason":  "Validation modes should live inside Validation Center.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Quick_Actions_Hub"
+    },
+    {
+        "name":  "Rebuild Toolkit Cache",
+        "folder":  "Rebuild_Toolkit_Cache",
+        "family":  "Framework Maintenance Family",
+        "action":  "REVIEW",
+        "destination":  "Framework Center",
+        "reason":  "May be a framework maintenance mode or development-only helper.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Rebuild_Toolkit_Cache"
+    },
+    {
+        "name":  "Registry Manager",
+        "folder":  "Registry_Manager",
+        "family":  "Validation / Health Family",
+        "action":  "MERGE",
+        "destination":  "Validation Center",
+        "reason":  "Validation modes should live inside Validation Center.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Registry_Manager"
+    },
+    {
+        "name":  "Release Candidate Audit",
+        "folder":  "RC1_Validation",
+        "family":  "Validation / Health Family",
+        "action":  "MERGE",
+        "destination":  "Validation Center",
+        "reason":  "Validation modes should live inside Validation Center.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\RC1_Validation"
+    },
+    {
+        "name":  "Release Notes",
+        "folder":  "Release_Notes",
+        "family":  "Documentation / Support Family",
+        "action":  "KEEP",
+        "destination":  "Support Center",
+        "reason":  "Documentation/support is user-facing and should remain accessible.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Release_Notes"
+    },
+    {
+        "name":  "Remove Module Wizard",
+        "folder":  "Remove_Tool_Wizard",
+        "family":  "Framework Maintenance Family",
+        "action":  "REVIEW",
+        "destination":  "Framework Center",
+        "reason":  "May be a framework maintenance mode or development-only helper.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Remove_Tool_Wizard"
+    },
+    {
+        "name":  "Repository Browser",
+        "folder":  "Repository_Browser",
+        "family":  "Search Family",
+        "action":  "MERGE",
+        "destination":  "Search Center",
+        "reason":  "Search/browse/launcher behavior should become a Search Center mode.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Repository_Browser"
+    },
+    {
+        "name":  "Repository Manager",
+        "folder":  "Repository_Manager",
+        "family":  "Installer Family",
+        "action":  "KEEP",
+        "destination":  "Repository",
+        "reason":  "Primary repository management capability.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Repository_Manager"
+    },
+    {
+        "name":  "Repository Structure Validator",
+        "folder":  "Installer_Repository_Builder",
+        "family":  "Validation / Health Family",
+        "action":  "MERGE",
+        "destination":  "Validation Center",
+        "reason":  "Validation modes should live inside Validation Center.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Installer_Repository_Builder"
+    },
+    {
+        "name":  "Risk Classification Assistant",
+        "folder":  "Risk_Classification_Assistant",
+        "family":  "Metadata Family",
+        "action":  "MERGE",
+        "destination":  "Metadata Center",
+        "reason":  "Metadata repair/edit/risk functions should become metadata modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Risk_Classification_Assistant"
+    },
+    {
+        "name":  "Runtime Validator",
+        "folder":  "Runtime_Validator",
+        "family":  "Search Family",
+        "action":  "MERGE",
+        "destination":  "Search Center",
+        "reason":  "Search/browse/launcher behavior should become a Search Center mode.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Runtime_Validator"
+    },
+    {
+        "name":  "Search Foundation",
+        "folder":  "Search_Foundation",
+        "family":  "Search Family",
+        "action":  "KEEP",
+        "destination":  "Search Center",
+        "reason":  "Primary visible search capability.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Search_Foundation"
+    },
+    {
+        "name":  "Smart Module Validator",
+        "folder":  "Smart_Module_Validator",
+        "family":  "Metadata Family",
+        "action":  "MERGE",
+        "destination":  "Metadata Center",
+        "reason":  "Metadata repair/edit/risk functions should become metadata modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Smart_Module_Validator"
+    },
+    {
+        "name":  "Smart Recommendations Engine",
+        "folder":  "Smart_Recommendations_Engine",
+        "family":  "Validation / Health Family",
+        "action":  "MERGE",
+        "destination":  "Validation Center",
+        "reason":  "Validation modes should live inside Validation Center.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Smart_Recommendations_Engine"
+    },
+    {
+        "name":  "Static Code Analyzer",
+        "folder":  "Static_Code_Analyzer",
+        "family":  "Validation / Health Family",
+        "action":  "MERGE",
+        "destination":  "Validation Center",
+        "reason":  "Validation modes should live inside Validation Center.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Static_Code_Analyzer"
+    },
+    {
+        "name":  "Test Log Viewer",
+        "folder":  "Test_Log_Viewer",
+        "family":  "Framework Maintenance Family",
+        "action":  "REVIEW",
+        "destination":  "Framework Center",
+        "reason":  "May be a framework maintenance mode or development-only helper.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Test_Log_Viewer"
+    },
+    {
+        "name":  "Tool Chain Runner",
+        "folder":  "Tool_Chain_Runner",
+        "family":  "Framework Maintenance Family",
+        "action":  "REVIEW",
+        "destination":  "Framework Center",
+        "reason":  "May be a framework maintenance mode or development-only helper.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Tool_Chain_Runner"
+    },
+    {
+        "name":  "Tool Manager",
+        "folder":  "Tool_Manager",
+        "family":  "General / Review Family",
+        "action":  "REVIEW",
+        "destination":  "Unknown",
+        "reason":  "Needs human review before merge or retire.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Tool_Manager"
+    },
+    {
+        "name":  "Tool Modifier",
+        "folder":  "Tool_Modifier",
+        "family":  "Metadata Family",
+        "action":  "MERGE",
+        "destination":  "Metadata Center",
+        "reason":  "Metadata repair/edit/risk functions should become metadata modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Tool_Modifier"
+    },
+    {
+        "name":  "Toolkit Dashboard",
+        "folder":  "Toolkit_Dashboard",
+        "family":  "Validation / Health Family",
+        "action":  "MERGE",
+        "destination":  "Validation Center",
+        "reason":  "Validation modes should live inside Validation Center.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Toolkit_Dashboard"
+    },
+    {
+        "name":  "Toolkit Health Center",
+        "folder":  "Toolkit_Health_Center",
+        "family":  "Validation / Health Family",
+        "action":  "REVIEW",
+        "destination":  "Validation Center / Dashboard Center",
+        "reason":  "Health-style tools may belong under Validation or Dashboard depending on UI.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Toolkit_Health_Center"
+    },
+    {
+        "name":  "Toolkit Logger",
+        "folder":  "Toolkit_Logger",
+        "family":  "Validation / Health Family",
+        "action":  "MERGE",
+        "destination":  "Validation Center",
+        "reason":  "Validation modes should live inside Validation Center.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Toolkit_Logger"
+    },
+    {
+        "name":  "Toolkit Registry Builder",
+        "folder":  "Toolkit_Registry",
+        "family":  "Search Family",
+        "action":  "MERGE",
+        "destination":  "Search Center",
+        "reason":  "Search/browse/launcher behavior should become a Search Center mode.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Toolkit_Registry"
+    },
+    {
+        "name":  "Toolkit Upgrade Manager",
+        "folder":  "Core_Integration_Manager",
+        "family":  "Search Family",
+        "action":  "MERGE",
+        "destination":  "Search Center",
+        "reason":  "Search/browse/launcher behavior should become a Search Center mode.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Core_Integration_Manager"
+    },
+    {
+        "name":  "Validate Modules",
+        "folder":  "Validate_Modules",
+        "family":  "Metadata Family",
+        "action":  "MERGE",
+        "destination":  "Metadata Center",
+        "reason":  "Metadata repair/edit/risk functions should become metadata modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Validate_Modules"
+    },
+    {
+        "name":  "Validation Center",
+        "folder":  "Validation_Center",
+        "family":  "Validation / Health Family",
+        "action":  "KEEP",
+        "destination":  "Validation Center",
+        "reason":  "Primary validation center.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Validation_Center"
+    },
+    {
+        "name":  "Winget Puller",
+        "folder":  "Winget_Puller",
+        "family":  "Search Family",
+        "action":  "MERGE",
+        "destination":  "Search Center",
+        "reason":  "Search/browse/launcher behavior should become a Search Center mode.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Winget_Puller"
+    },
+    {
+        "name":  "Workspace",
+        "folder":  "Workspace",
+        "family":  "Metadata Family",
+        "action":  "MERGE",
+        "destination":  "Metadata Center",
+        "reason":  "Metadata repair/edit/risk functions should become metadata modes.",
+        "path":  "C:\\Users\\Alex\\Desktop\\Toolkit work\\Toolkit Phase 2 Active\\42RC1f_RC_FREEZE_TEST_FINAL18_RepairChecklistCleanup\\Windows Modular Toolkit\\Framework\\Workspace"
+    }
+]

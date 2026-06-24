@@ -1,0 +1,22 @@
+{
+  "name": "Module Inventory Report",
+  "category": "Toolkit Management",
+  "subcategory": "Audit & Reporting",
+  "description": "Reports framework component, user module, and user category inventory.",
+  "risk": "Safe",
+  "requires_admin": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "keywords": [],
+  "version": "1.0",
+  "supports_logs": false,
+  "supports_export": false,
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "framework_category": "Audit & Reporting",
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Medium"
+}

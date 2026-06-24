@@ -1,0 +1,12 @@
+42RC1d Winget Puller Search Fix
+
+Changes:
+- Replaced fragile Winget output parser with raw Winget search display.
+- User now enters exact Package ID from Winget results.
+- Added Install/Create By Package ID flow.
+- Create Module now auto-generates run.ps1, run.bat, and tool.json.
+- Updated Winget Puller help documentation.
+
+Reason:
+Winget output can vary and parser was throwing 'Argument types do not match'.
+Raw output + exact Package ID is more reliable for RC.

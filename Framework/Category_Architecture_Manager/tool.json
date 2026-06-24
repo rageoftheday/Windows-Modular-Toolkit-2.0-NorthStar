@@ -1,0 +1,30 @@
+{
+  "name": "Category Architecture Manager",
+  "category": "Toolkit Management",
+  "subcategory": "Builders",
+  "description": "Repairs or improves category and module metadata structure.",
+  "keywords": [
+    "category",
+    "architecture",
+    "metadata",
+    "cleanup",
+    "modules",
+    "organization",
+    "toolkit"
+  ],
+  "version": "1.0",
+  "risk": "Safe",
+  "requires_admin": true,
+  "supports_logs": true,
+  "supports_export": true,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": true,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Medium",
+  "framework_category": "Builders"
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Incoming",
+    "folder": "Incoming",
+    "protected": true,
+    "description": "Unsorted drop folder",
+    "keywords": [
+      "incoming",
+      "unsorted",
+      "new"
+    ]
+  },
+  {
+    "name": "Printers",
+    "folder": "Printers",
+    "protected": false,
+    "description": "Printer drivers and printer utilities",
+    "keywords": [
+      "printer",
+      "print",
+      "hp",
+      "brother",
+      "canon",
+      "xerox",
+      "ricoh",
+      "epson",
+      "driver"
+    ]
+  },
+  {
+    "name": "Antivirus",
+    "folder": "Antivirus",
+    "protected": false,
+    "description": "Security and antivirus installers",
+    "keywords": [
+      "antivirus",
+      "security",
+      "crowdstrike",
+      "falcon",
+      "sensor",
+      "defender",
+      "sentinel",
+      "sophos",
+      "mcafee",
+      "bitdefender"
+    ]
+  },
+  {
+    "name": "Company Specific",
+    "folder": "Company Specific",
+    "protected": false,
+    "description": "Company-specific installers and deployment files",
+    "keywords": [
+      "company",
+      "corp",
+      "edmorse",
+      "lawley",
+      "domain",
+      "internal"
+    ]
+  },
+  {
+    "name": "Personal",
+    "folder": "Personal",
+    "protected": false,
+    "description": "Personal-use installers",
+    "keywords": [
+      "personal",
+      "home"
+    ]
+  },
+  {
+    "name": "Utilities",
+    "folder": "Utilities",
+    "protected": false,
+    "description": "General utilities",
+    "keywords": [
+      "tool",
+      "utility",
+      "sysinternals",
+      "notepad",
+      "chrome",
+      "firefox",
+      "browser",
+      "remote",
+      "viewer"
+    ]
+  },
+  {
+    "name": "Drivers",
+    "folder": "Drivers",
+    "protected": false,
+    "description": "Hardware drivers",
+    "keywords": [
+      "driver",
+      "chipset",
+      "audio",
+      "video",
+      "graphics",
+      "intel",
+      "nvidia",
+      "amd",
+      "realtek"
+    ]
+  },
+  {
+    "name": "Windows Updates",
+    "folder": "Windows Updates",
+    "protected": false,
+    "description": "Windows update packages",
+    "keywords": [
+      "windows",
+      "update",
+      "kb",
+      "msu",
+      "cab"
+    ]
+  },
+  {
+    "name": "Scripts",
+    "folder": "Scripts",
+    "protected": false,
+    "description": "PowerShell, batch, and command scripts",
+    "keywords": [
+      "ps1",
+      "bat",
+      "cmd",
+      "script"
+    ]
+  },
+  {
+    "name": "Archive Tools",
+    "folder": "Archive Tools",
+    "protected": false,
+    "description": "ZIP/RAR/7Z tools and archive utilities",
+    "keywords": [
+      "7zip",
+      "7-zip",
+      "winrar",
+      "zip",
+      "rar",
+      "7z",
+      "archive"
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Blank Workspace",
+    "description": "Clean workspace with only core sections. Best for users who want to build their own.",
+    "folders": ["Quick Access", "Work", "Personal", "Incoming"]
+  },
+  {
+    "name": "IT Technician",
+    "description": "Help desk, printers, documentation, websites, scripts, and network resources.",
+    "folders": ["Quick Access", "Work", "Personal", "Scripts", "Websites", "Network Shares", "Notes", "Incoming"]
+  },
+  {
+    "name": "Help Desk",
+    "description": "User support, printers, networking, troubleshooting, and documentation.",
+    "folders": ["Quick Access", "Work", "Personal", "Users", "Printers", "Networking", "Documentation", "Incoming"]
+  },
+  {
+    "name": "System Administrator",
+    "description": "Servers, Active Directory, networking, security, scripts, and infrastructure.",
+    "folders": ["Quick Access", "Work", "Personal", "Active Directory", "Servers", "Networking", "Security", "Scripts", "Documentation", "Incoming"]
+  },
+  {
+    "name": "Home Lab",
+    "description": "Servers, virtualization, Docker, networking, and personal projects.",
+    "folders": ["Quick Access", "Work", "Personal", "Servers", "Virtualization", "Networking", "Docker", "Notes", "Incoming"]
+  },
+  {
+    "name": "PowerShell Developer",
+    "description": "Scripts, projects, GitHub, testing, and development resources.",
+    "folders": ["Quick Access", "Work", "Personal", "Projects", "Scripts", "GitHub", "Testing", "Notes", "Incoming"]
+  },
+  {
+    "name": "AIO Workspace",
+    "description": "Creates all standard workspace sections. Best for users who want everything available.",
+    "folders": ["Quick Access", "Work", "Personal", "Files", "Folders", "Notes", "Scripts", "Websites", "Documentation", "Customers", "Servers", "Networking", "GitHub", "Projects", "Incoming"]
+  }
+]

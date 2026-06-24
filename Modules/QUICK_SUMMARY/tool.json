@@ -1,0 +1,20 @@
+{
+  "name": "Quick Summary",
+  "category": "System Information",
+  "subcategory": "System Information",
+  "description": "Displays a quick system summary.",
+  "keywords": [
+    "quick",
+    "summary",
+    "toolkit",
+    "windows"
+  ],
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "important": false
+}

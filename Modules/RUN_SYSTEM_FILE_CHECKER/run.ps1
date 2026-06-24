@@ -1,0 +1,37 @@
+$Root = Resolve-Path "$PSScriptRoot\..\.."
+
+
+. "$Root\core\bootstrap.ps1"
+$Root = Resolve-Path "$PSScriptRoot\..\.."
+
+
+. "$Root\core\bootstrap.ps1"
+# ============================================================
+# WINDOWS MODULAR TOOLKIT
+# Run System File Checker
+# ============================================================
+
+$ErrorActionPreference = "Continue"
+
+Write-Host ""
+Write-Host "Running SFC /scannow..." -ForegroundColor Cyan
+Write-Host "Scans protected Windows system files and repairs corruption when possible."
+Write-Host "This may take several minutes. Do not close this window."
+Write-Host ""
+
+try {
+    sfc /scannow
+    $ExitCode = $LASTEXITCODE
+    Write-Host ""
+    Write-Host "SFC completed with exit code: $ExitCode" -ForegroundColor Cyan
+}
+catch {
+    Write-Host "[ERROR] SFC failed to start." -ForegroundColor Red
+    Write-Host $_.Exception.Message
+}
+
+Write-Host ""
+Write-Host "Done. Check the output above for repaired files or remaining issues."
+Write-Host "TIP: If SFC could not fix everything, run DISM repair, then run SFC again."
+
+

@@ -1,0 +1,30 @@
+{
+  "name": "Risk Classification Assistant",
+  "category": "Toolkit Management",
+  "subcategory": "Builders",
+  "description": "Helps classify user module risk levels.",
+  "keywords": [
+    "risk",
+    "classification",
+    "metadata",
+    "subcategory",
+    "audit",
+    "toolkit",
+    "analysis"
+  ],
+  "version": "1.0",
+  "risk": "Safe",
+  "requires_admin": true,
+  "supports_logs": true,
+  "supports_export": true,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": true,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Medium",
+  "framework_category": "Builders"
+}

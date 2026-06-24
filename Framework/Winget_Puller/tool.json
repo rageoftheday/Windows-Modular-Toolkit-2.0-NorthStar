@@ -1,0 +1,29 @@
+{
+  "name": "Winget Puller",
+  "description": "Validate Winget package IDs, install packages, copy install commands, create standard Winget install modules, and open Winget search websites.",
+  "category": "Toolkit Management",
+  "framework_category": "Repository",
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "entry": "run.bat",
+  "risk": "Moderate",
+  "keywords": [
+    "winget",
+    "software",
+    "installer",
+    "package",
+    "install",
+    "module",
+    "winstall",
+    "winget.run"
+  ],
+  "subcategory": "Acquisition",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": false,
+  "dependencies": [
+    "Winget"
+  ],
+  "hidden": false,
+  "important": false
+}

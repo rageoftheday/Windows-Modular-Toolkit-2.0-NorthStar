@@ -1,0 +1,31 @@
+{
+  "name": "Module Rationalization Engine",
+  "category": "Toolkit Management",
+  "subcategory": "Development & Testing",
+  "description": "Development helper for reviewing duplicate or overlapping modules.",
+  "keywords": [
+    "module",
+    "cleanup",
+    "rationalization",
+    "architecture",
+    "legacy",
+    "audit",
+    "framework",
+    "migration"
+  ],
+  "version": "1.0",
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": true,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": true,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Low",
+  "framework_category": "Development & Testing"
+}

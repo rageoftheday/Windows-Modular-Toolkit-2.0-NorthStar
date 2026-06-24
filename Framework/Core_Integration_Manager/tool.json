@@ -1,0 +1,33 @@
+{
+  "name": "Toolkit Upgrade Manager",
+  "category": "Toolkit Management",
+  "subcategory": "Development & Testing",
+  "description": "Development helper for core integration and upgrade review.",
+  "keywords": [
+    "upgrade",
+    "migration",
+    "powershell",
+    "core",
+    "framework",
+    "launcher",
+    "backup",
+    "automation",
+    "toolkit",
+    "modules"
+  ],
+  "version": "1.0",
+  "risk": "Moderate",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Low",
+  "framework_category": "Development & Testing"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Category Toolkit Launcher",
+  "category": "Toolkit Management",
+  "subcategory": "Development & Testing",
+  "description": "Legacy category launcher used for compatibility testing. (Hidden legacy/absorbed entry retained for compatibility.)",
+  "keywords": [
+    "launcher",
+    "categories",
+    "toolkit",
+    "modules",
+    "dynamic",
+    "menu",
+    "metadata",
+    "browser",
+    "powershell",
+    "batch"
+  ],
+  "version": "1.0",
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": false,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": true,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Low",
+  "framework_category": "Development & Testing"
+}

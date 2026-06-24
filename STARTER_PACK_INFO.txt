@@ -1,0 +1,15 @@
+Windows Modular Toolkit - Framework Edition 2.0
+
+This development/test ZIP includes the framework plus a small optional starter pack of 5 user modules.
+
+Starter modules included:
+- DNS Flush
+- Print Status
+- Quick Summary
+- Run System File Checker
+- Check Winget
+
+These modules are included only as safe test/sample content while the framework is being built.
+The framework should remain operational even if the Modules folder is empty.
+
+Optional extra modules are packaged separately in the Module Pack ZIP.

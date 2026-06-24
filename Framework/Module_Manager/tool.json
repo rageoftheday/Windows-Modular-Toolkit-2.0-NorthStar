@@ -1,0 +1,32 @@
+{
+  "name": "Module Manager",
+  "category": "Toolkit Management",
+  "subcategory": "Builders",
+  "description": "Manages user modules only: rename, move, hide, clone, delete, and summarize. Framework components are protected.",
+  "keywords": [
+    "module",
+    "manager",
+    "rename",
+    "move",
+    "hide",
+    "clone",
+    "delete",
+    "user modules",
+    "toolkit"
+  ],
+  "version": "1.0",
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": false,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Medium",
+  "framework_category": "Builders"
+}

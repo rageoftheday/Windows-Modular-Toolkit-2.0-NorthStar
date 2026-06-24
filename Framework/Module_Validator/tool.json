@@ -1,0 +1,32 @@
+{
+  "name": "Module Validator",
+  "category": "Toolkit Management",
+  "subcategory": "Validation & Health",
+  "description": "Validates toolkit modules and metadata.",
+  "keywords": [
+    "validator",
+    "module",
+    "toolkit",
+    "audit",
+    "json",
+    "launcher",
+    "portable",
+    "safety",
+    "diagnostics"
+  ],
+  "version": "1.0",
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "High",
+  "framework_category": "Validation & Health"
+}

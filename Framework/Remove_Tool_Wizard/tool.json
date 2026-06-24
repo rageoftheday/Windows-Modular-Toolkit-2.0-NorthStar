@@ -1,0 +1,22 @@
+{
+  "name": "Remove Module Wizard",
+  "category": "Toolkit Management",
+  "subcategory": "Builders",
+  "description": "Safely deletes user modules only. Framework tools are protected.",
+  "risk": "Safe",
+  "requires_admin": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "keywords": [],
+  "version": "1.0",
+  "supports_logs": false,
+  "supports_export": false,
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Medium",
+  "framework_category": "Builders"
+}

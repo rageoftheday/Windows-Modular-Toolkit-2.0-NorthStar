@@ -1,0 +1,31 @@
+{
+  "name": "Tool Manager",
+  "category": "Toolkit Management",
+  "subcategory": "Builders",
+  "description": "Central hub for adding, modifying, cloning, moving, hiding, deleting, and organizing user modules.",
+  "keywords": [
+    "tool manager",
+    "add",
+    "modify",
+    "clone",
+    "move",
+    "hide",
+    "delete",
+    "bulk",
+    "builder"
+  ],
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "High",
+  "framework_category": "Builders"
+}

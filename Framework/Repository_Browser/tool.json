@@ -1,0 +1,24 @@
+{
+  "name": "Repository Browser",
+  "category": "Toolkit Management",
+  "subcategory": "Repository",
+  "description": "Browse software, scripts, documents, disk images, archives, and other repository records.",
+  "keywords": [
+    "repository",
+    "browse",
+    "software",
+    "scripts",
+    "documents",
+    "archives",
+    "search"
+  ],
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": false,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "framework_protected": true,
+  "module_scope": "Framework"
+}

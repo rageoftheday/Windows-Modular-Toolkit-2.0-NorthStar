@@ -1,0 +1,249 @@
+WINDOWS MODULAR TOOLKIT
+Repository Formats and Detection Guide
+============================================================
+
+This file explains what the Repository can recognize today and how the framework can learn new formats later.
+
+Important idea
+--------------
+The toolkit does not have a fixed format limit.
+
+The framework ships with protected core formats, but users can teach it new formats through learned repository formats and Detection Library rules. Once a format or detection is learned, it is used toolkit-wide by Repository scanning, Search, Reports, Import workflows, Metadata, and Help/Support documentation.
+
+============================================================
+ CORE REPOSITORY FORMATS
+============================================================
+
+Software
+--------
+EXE, MSI
+
+Common use:
+- Installers
+- Portable applications
+- software setup files
+
+Repository destination:
+Repository\Software\
+
+Packages
+--------
+APPX, APPXBUNDLE, MSIX, MSIXBUNDLE
+
+Common use:
+- Windows app packages
+- Microsoft Store style packages
+
+Repository destination:
+Repository\Packages\
+
+Scripts
+-------
+PS1, BAT, CMD
+
+Common use:
+- PowerShell scripts
+- batch scripts
+- command scripts
+
+Repository destination:
+Repository\Scripts\
+
+Documents
+---------
+TXT, MD, RTF, PDF, DOC, DOCX, DOT, DOTX, XLS, XLSX, XLSM, XLTX, CSV, TSV, PPT, PPTX, PPTM, POTX, ODS
+
+Common use:
+- notes
+- guides
+- spreadsheets
+- presentations
+- reference files
+
+Repository destination:
+Repository\Documents\
+
+Archives
+--------
+ZIP, 7Z, RAR, CAB, TAR, GZ, BZ2, XZ, TGZ, TBZ, TXZ, TAR.GZ, TAR.BZ2, TAR.XZ
+
+Common use:
+- compressed packages
+- portable app bundles
+- source archives
+- exported tool packs
+
+Repository destination:
+Repository\Archives\
+
+Disk Images
+-----------
+ISO, IMG, WIM, ESD, FFU, VHD, VHDX
+
+Common use:
+- Windows images
+- install media
+- virtual disks
+- deployment images
+
+Repository destination:
+Repository\Disk Images\
+
+Custom
+------
+Anything that does not fit the protected repository types can be learned as a custom type.
+
+Examples:
+- Photoshop Project
+- Blender Project
+- CAD Project
+- Game Mod
+- Work Files
+- Firmware
+
+Repository destination:
+Repository\Custom\<Custom Type>\
+
+============================================================
+ LEARNED FORMATS
+============================================================
+
+Learned formats are user-added extension rules.
+
+Example:
+Unknown extension:
+.foo
+
+The toolkit asks:
+How should this be handled?
+
+You choose:
+Custom -> Work
+
+Result:
+.foo becomes supported everywhere as Custom\Work.
+
+How to add a learned format
+---------------------------
+1. Copy a file with the unknown extension into Incoming\.
+2. Open:
+   Main Menu -> [R] Repository Manager -> [1] Repository Manager
+3. Select:
+   [1] Scan Incoming
+4. When prompted for the unknown extension, choose the repository type.
+5. Save the format label.
+6. Scan results refresh and the new format is immediately supported.
+
+How to manage learned formats
+-----------------------------
+Open:
+Main Menu -> [F] Framework Center -> Metadata Library Manager -> Repository Formats
+
+Use this area to:
+- view core formats
+- view learned formats
+- add learned formats
+- delete learned formats
+- recover format libraries if corrupted
+
+============================================================
+ DETECTION LIBRARY
+============================================================
+
+Some things are not best identified by extension alone.
+The Detection Library identifies content by indicators, project files, and folder structure.
+
+Core detection examples
+-----------------------
+.NET Project
+Indicators: .sln, .csproj, .vbproj, .fsproj
+
+Python Project
+Indicators: pyproject.toml, setup.py, requirements.txt, Pipfile
+
+NodeJS Project
+Indicators: package.json, package-lock.json, yarn.lock, pnpm-lock.yaml
+
+PowerShell Project
+Indicators: .ps1, .psm1, .psd1
+
+Java Project
+Indicators: pom.xml, build.gradle, settings.gradle
+
+Rust Project
+Indicators: Cargo.toml
+
+Go Project
+Indicators: go.mod, go.sum
+
+C/C++ Project
+Indicators: CMakeLists.txt, Makefile, .vcxproj
+
+Photoshop Project
+Indicators: .psd, .psb
+
+Blender Project
+Indicators: .blend
+
+CAD Project
+Indicators: .dwg, .dxf, .stl, .3mf
+
+Game Mod
+Indicators: .pak, .mod, manifest.json
+
+How to add a detection
+----------------------
+Open:
+Main Menu -> [F] Framework Center -> Metadata Library Manager -> Detection Library
+
+Add:
+- detection name
+- indicators
+- category
+- subcategory
+- notes
+
+Result:
+Future scans can detect that content everywhere the framework uses the Detection Library.
+
+============================================================
+ FUTURE FORMAT SUPPORT
+============================================================
+
+The toolkit is designed to grow.
+
+New formats do not require a new framework build if they can be taught through:
+- Repository Formats
+- Detection Library
+- Categories
+- Subcategories
+- Keywords
+
+The framework follows this rule:
+Learn once. Use everywhere.
+
+If Windows, GitHub, or a user workflow introduces a new file type later, add it to the proper library and the toolkit can begin sorting, searching, reporting, and importing it without changing the core framework.
+
+============================================================
+ RECOVERY
+============================================================
+
+If formats or detections are wrong, missing, or corrupted:
+
+1. Open:
+   Main Menu -> [F] Framework Center -> Metadata Library Manager
+
+2. Open:
+   Library Recovery
+
+3. Restore the affected library:
+   - Metadata Library
+   - Repository Formats
+   - Detection Library
+
+4. Re-scan Incoming or re-run Repository Report.
+
+Success looks like:
+- Scan Incoming recognizes known formats.
+- Full Repository Report shows records under the correct sections.
+- Detection Summary lists detected project/content types.

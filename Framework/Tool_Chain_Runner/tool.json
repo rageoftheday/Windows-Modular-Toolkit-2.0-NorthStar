@@ -1,0 +1,30 @@
+{
+  "name": "Tool Chain Runner",
+  "category": "Toolkit Management",
+  "subcategory": "Development & Testing",
+  "description": "Runs curated tool chains such as repair, cleanup, and network workflows.",
+  "keywords": [
+    "chain",
+    "workflow",
+    "repair",
+    "cleanup",
+    "network",
+    "pack",
+    "automation"
+  ],
+  "version": "1.0",
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": true,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Low",
+  "framework_category": "Development & Testing"
+}

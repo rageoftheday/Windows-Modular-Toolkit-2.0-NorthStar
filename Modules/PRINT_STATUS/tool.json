@@ -1,0 +1,20 @@
+{
+  "name": "Print Status",
+  "category": "Printer Tools",
+  "subcategory": "Printer Tools",
+  "description": "Displays printer and print spooler status.",
+  "keywords": [
+    "print",
+    "status",
+    "toolkit",
+    "windows"
+  ],
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "important": false
+}

@@ -1,0 +1,22 @@
+{
+  "name": "GitHub Puller",
+  "description": "Acquire GitHub projects or release files into the toolkit.",
+  "category": "Toolkit Management",
+  "framework_category": "Installers",
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "entry": "run.bat",
+  "risk": "Low",
+  "keywords": [
+    "installer",
+    "software",
+    "download",
+    "repository"
+  ],
+  "subcategory": "",
+  "requires_admin": false,
+  "supports_logs": false,
+  "supports_export": false,
+  "dependencies": [],
+  "hidden": false
+}

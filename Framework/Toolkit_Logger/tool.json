@@ -1,0 +1,33 @@
+{
+  "name": "Toolkit Logger",
+  "category": "Toolkit Management",
+  "subcategory": "Configuration",
+  "description": "Displays or manages toolkit logging information.",
+  "keywords": [
+    "logs",
+    "logging",
+    "history",
+    "errors",
+    "tracking",
+    "audit",
+    "toolkit",
+    "health",
+    "cleanup",
+    "reports"
+  ],
+  "version": "1.0",
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": true,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Medium",
+  "framework_category": "Configuration"
+}

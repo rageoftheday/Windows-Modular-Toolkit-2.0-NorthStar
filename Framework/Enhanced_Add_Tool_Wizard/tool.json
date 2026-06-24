@@ -1,0 +1,33 @@
+{
+  "name": "Enhanced Add Tool Wizard (Retired)",
+  "category": "Toolkit Management",
+  "subcategory": "Builders",
+  "description": "Retired legacy module creation wizard. Use Add Module Builder.",
+  "keywords": [
+    "add",
+    "wizard",
+    "builder",
+    "module",
+    "generate",
+    "template",
+    "tool.json",
+    "run.ps1"
+  ],
+  "risk": "Safe",
+  "requires_admin": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "version": "1.0",
+  "supports_logs": true,
+  "supports_export": false,
+  "hidden": true,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Medium",
+  "framework_category": "Builders",
+  "retired": true,
+  "replaced_by": "Add_Module_Builder"
+}

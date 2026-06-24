@@ -1,0 +1,27 @@
+{
+  "name": "Add Module Builder",
+  "category": "Toolkit Management",
+  "subcategory": "Module Tool Manager",
+  "description": "Creates and modifies toolkit modules using guided choices, templates, metadata suggestions, and the metadata library.",
+  "keywords": [
+    "module",
+    "builder",
+    "add",
+    "create",
+    "script",
+    "template",
+    "metadata",
+    "library"
+  ],
+  "risk": "Moderate",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "room": "Module Tool Manager",
+  "subroom": "Builder",
+  "capability": "Module Creation",
+  "location": "Module Tool Manager > Builder"
+}

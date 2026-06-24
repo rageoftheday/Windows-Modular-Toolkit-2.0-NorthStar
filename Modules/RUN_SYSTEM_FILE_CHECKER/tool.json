@@ -1,0 +1,20 @@
+{
+  "name": "Run System File Checker",
+  "category": "Windows Repair",
+  "subcategory": "Windows Repair",
+  "description": "Scans and repairs corrupted Windows system files.",
+  "keywords": [
+    "run",
+    "system",
+    "file",
+    "checker"
+  ],
+  "risk": "Moderate",
+  "requires_admin": true,
+  "supports_logs": false,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "important": false
+}

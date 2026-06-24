@@ -1,0 +1,29 @@
+{
+  "name": "Metadata Manager",
+  "category": "Toolkit Management",
+  "subcategory": "Configuration",
+  "description": "Central hub for metadata repair, descriptions, risk classification, headers, and consistency cleanup.",
+  "keywords": [
+    "metadata",
+    "repair",
+    "description",
+    "risk",
+    "headers",
+    "normalize",
+    "cleanup"
+  ],
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Medium",
+  "framework_category": "Configuration"
+}

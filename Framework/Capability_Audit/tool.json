@@ -1,0 +1,24 @@
+{
+  "name": "Capability Audit",
+  "description": "Reviews framework tools by capability family and recommends keep, merge, retire, or review decisions.",
+  "category": "Toolkit Management",
+  "framework_category": "Audit & Reporting",
+  "keywords": [
+    "capability",
+    "audit",
+    "consolidation",
+    "merge",
+    "retire",
+    "review",
+    "framework"
+  ],
+  "entry": "run.bat",
+  "type": "Framework Tool",
+  "subcategory": "",
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": false,
+  "supports_export": false,
+  "dependencies": [],
+  "hidden": false
+}

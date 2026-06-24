@@ -1,0 +1,14 @@
+Install/Enable/Update Modules Removed From This Release Build
+============================================================
+
+This build removes or separates modules that install software, enable Windows features,
+install RSAT/WSL/PowerShell modules, or install Windows updates.
+
+Reason:
+- Release build should not accidentally install, enable, or modify major system components.
+- These modules can be reviewed separately as an optional admin-side patch.
+
+Separated modules are available in:
+42RC1_SeparatedInstallFeatureModules_REVIEW_BEFORE_USE.zip
+
+Review every separated module before use. Many require administrator rights and may change Windows features.

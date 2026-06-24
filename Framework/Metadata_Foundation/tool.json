@@ -1,0 +1,24 @@
+{
+  "name": "Metadata Engine",
+  "category": "Framework",
+  "subcategory": "Foundation",
+  "description": "Foundation service that generates, validates, repairs, and edits metadata attached to real toolkit objects.",
+  "keywords": [
+    "metadata",
+    "engine",
+    "foundation",
+    "description",
+    "keywords",
+    "category",
+    "type",
+    "validation",
+    "repair"
+  ],
+  "risk": "Low",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": true,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false
+}

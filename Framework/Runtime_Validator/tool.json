@@ -1,0 +1,32 @@
+{
+  "name": "Runtime Validator",
+  "category": "Toolkit Management",
+  "subcategory": "Validation & Health",
+  "description": "Validates runtime requirements and toolkit metadata.",
+  "keywords": [
+    "runtime",
+    "validator",
+    "module",
+    "testing",
+    "launcher",
+    "execution",
+    "diagnostics",
+    "stability",
+    "toolkit"
+  ],
+  "version": "1.0",
+  "risk": "Low",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": true,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "High",
+  "framework_category": "Validation & Health"
+}

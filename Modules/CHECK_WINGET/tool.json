@@ -1,0 +1,20 @@
+{
+  "name": "Check Winget",
+  "category": "Setup and Dependencies",
+  "subcategory": "Setup and Dependencies",
+  "description": "Checks whether Winget is available and working.",
+  "keywords": [
+    "check",
+    "toolkit",
+    "windows",
+    "winget"
+  ],
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "important": false
+}

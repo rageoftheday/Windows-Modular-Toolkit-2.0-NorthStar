@@ -1,0 +1,165 @@
+Status,Folder,Name/Reason,Category,Subcategory,Risk,RequiresAdmin,Entry
+KEPT,ARP_Table,ARP Table,Network Tools,Network Tools,Moderate,False,run.bat
+KEPT,Adapter_Info,Adapter Info,Network Tools,Network Tools,Moderate,False,run.bat
+KEPT,Audit_Policy,Audit Policy,Security,Security,High,True,run.bat
+KEPT,Battery_Report,Battery Report,Network Tools,Network Tools,Moderate,False,run.bat
+KEPT,Bcd_View,Bcd View,System Information,System Information,High,True,run.bat
+KEPT,Bios_Info,Bios Info,System Information,System Information,Moderate,False,run.bat
+KEPT,Bitlocker_Status,Bitlocker Status,Security,Security,High,True,run.bat
+KEPT,Boot_Time,Boot Time,System Information,System Information,High,True,run.bat
+KEPT,Cert_Expiry,Cert Expiry,Network Tools,Network Tools,High,True,run.bat
+KEPT,Check_Disk_Fix,Check Disk Fix,Diagnostics,Storage,High,True,run.bat
+KEPT,Check_Disk_Scan,Check Disk Scan,Diagnostics,Storage,High,True,run.bat
+KEPT,Clear_Browsers,Clear Browsers,Windows Repair,System Cleanup,High,True,run.bat
+KEPT,Clear_Delopt,Clear Delopt,Windows Repair,System Cleanup,High,True,run.bat
+KEPT,Clear_Prefetch,Clear Prefetch,Windows Repair,System Cleanup,High,True,run.bat
+KEPT,Clear_Recent,Clear Recent,Windows Repair,System Cleanup,High,True,run.bat
+KEPT,Clear_Thumbnail_Cache,Clear Thumbnail Cache,Windows Repair,System Cleanup,High,True,run.bat
+KEPT,Clear_Windows_Temporary_Files,Clear Windows Temporary Files,Windows Repair,System Cleanup,High,True,run.bat
+KEPT,Clear_Windows_Update_Cache,Clear Windows Update Cache,Windows Repair,System Cleanup,High,True,run.bat
+KEPT,Comp_Store,Comp Store,Windows Repair,System Cleanup,High,True,run.bat
+KEPT,Cpuhogs,Cpuhogs,System Information,System Information,Moderate,False,run.bat
+KEPT,DNS_Test,DNS Test,Network Tools,Network Tools,Moderate,False,run.bat
+KEPT,Deep_Cleanup,Deep Cleanup,Windows Repair,Automated Maintenance,High,True,run.bat
+KEPT,Defrag_Anal,Defrag Anal,Diagnostics,Storage,Moderate,False,run.bat
+KEPT,Disable_Safe,Disable Safe,System Information,System Information,High,True,run.bat
+KEPT,Disk_Bench,Disk Bench,Diagnostics,Storage,Moderate,False,run.bat
+KEPT,Disk_Usage,Disk Usage,Diagnostics,Storage,Moderate,False,run.bat
+KEPT,Do_Psmod_All,Do Psmod All,Setup and Install,Setup and Dependencies,High,True,run.bat
+KEPT,Do_RSAT_All,Do RSAT All,Setup and Install,Setup and Dependencies,High,True,run.bat
+KEPT,Domain_Check,Domain Check,Network Tools,Network Tools,Moderate,False,run.bat
+KEPT,Empty_Recycle_Bin,Empty Recycle Bin,Windows Repair,System Cleanup,High,True,run.bat
+KEPT,Enable_Safe,Enable Safe,System Information,System Information,High,True,run.bat
+KEPT,Exec_Policy,Exec Policy,Security,Security,Moderate,False,run.bat
+KEPT,FW_Logging,FW Logging,Security,Security,High,True,run.bat
+KEPT,FW_Rules,FW Rules,Security,Security,High,True,run.bat
+KEPT,Failed_Logons,Failed Logons,Security,Security,High,True,run.bat
+KEPT,Feat_Hyperv,Feat Hyperv,Setup and Install,Windows Features,High,True,run.bat
+KEPT,Feat_Hyperv_Disable,Feat Hyperv Disable,Setup and Install,Windows Features,High,True,run.bat
+KEPT,Feat_WSL,Feat WSL,Setup and Install,Windows Features,High,True,run.bat
+KEPT,Feat_WSL_Disable,Feat WSL Disable,Setup and Install,Windows Features,High,True,run.bat
+KEPT,Hyperv_Status,Hyperv Status,Setup and Install,Windows Features,High,True,run.bat
+KEPT,Installed_Updates,Installed Updates,Setup and Install,Setup and Dependencies,Moderate,False,run.bat
+KEPT,Kernel_Drivers,Kernel Drivers,Drivers,Drivers,High,True,run.bat
+KEPT,Large_Files,Large Files,Diagnostics,Storage,Moderate,False,run.bat
+KEPT,Last_Logons,Last Logons,Security,Security,High,True,run.bat
+KEPT,Last_Wake,Last Wake,System Information,System Information,Moderate,False,run.bat
+KEPT,MDM_Status,MDM Status,System Information,System Information,Moderate,False,run.bat
+KEPT,Net_Adapter_Reset,Net Adapter Reset,Network Tools,Network Tools,High,True,run.bat
+KEPT,Net_Info,Net Info,Network Tools,Network Tools,Moderate,False,run.bat
+KEPT,Open_Ports,Open Ports,Network Tools,Network Tools,Moderate,False,run.bat
+KEPT,Pending_Reboot,Pending Reboot,System Information,System Information,Moderate,False,run.bat
+KEPT,Ping_Trace,Ping Trace,Network Tools,Network Tools,Moderate,False,run.bat
+KEPT,Pkt_Capture,Pkt Capture,Network Tools,Network Tools,High,True,run.bat
+KEPT,Port_Test,Port Test,Network Tools,Network Tools,Moderate,False,run.bat
+KEPT,PowerShell_Hardware_Report,PowerShell Hardware Report,Network Tools,Network Tools,High,True,run.bat
+KEPT,PowerShell_Temperatures,PowerShell Temperatures,Windows Repair,System Cleanup,High,True,run.bat
+KEPT,PowerShell_Windows_Update_Check,PowerShell Windows Update Check,System Information,System Information,High,True,run.bat
+KEPT,PowerShell_Windows_Update_History,PowerShell Windows Update History,System Information,System Information,High,True,run.bat
+KEPT,PowerShell_Windows_Update_Install,PowerShell Windows Update Install,Setup and Install,Setup and Dependencies,High,True,run.bat
+KEPT,Power_Report,Power Report,Network Tools,Network Tools,Moderate,False,run.bat
+KEPT,Powershell_Adapters,Powershell Adapters,Network Tools,Network Tools,Moderate,False,run.bat
+KEPT,Powershell_App_Crash,Powershell App Crash,System Information,System Information,Moderate,False,run.bat
+KEPT,Powershell_Battery,Powershell Battery,System Information,System Information,High,True,run.bat
+KEPT,Powershell_Bsod,Powershell Bsod,System Information,System Information,High,True,run.bat
+KEPT,Powershell_CPU,Powershell CPU,System Information,System Information,Moderate,False,run.bat
+KEPT,Powershell_DNS_Cache,Powershell DNS Cache,Network Tools,Network Tools,High,True,run.bat
+KEPT,Powershell_Defender,Powershell Defender,Security,Security,High,True,run.bat
+KEPT,Powershell_Dupes,Powershell Dupes,Diagnostics,Storage,Moderate,False,run.bat
+KEPT,Powershell_Envvars,Powershell Envvars,System Information,System Information,Moderate,False,run.bat
+KEPT,Powershell_Eventlog,Powershell Eventlog,System Information,System Information,Moderate,False,run.bat
+KEPT,Powershell_FW_Status,Powershell FW Status,Security,Security,High,True,run.bat
+KEPT,Powershell_Features,Powershell Features,Setup and Install,Windows Features,High,True,run.bat
+KEPT,Powershell_Find_Ext,Powershell Find Extension,System Information,System Information,Moderate,False,run.bat
+KEPT,Powershell_Folder_Size,Powershell Folder Size,Diagnostics,Storage,Moderate,False,run.bat
+KEPT,Powershell_Full_Report,Powershell Full Report,Network Tools,Network Tools,Moderate,False,run.bat
+KEPT,Powershell_GPU,Powershell GPU,System Information,System Information,High,True,run.bat
+KEPT,Powershell_Inet_Test,Powershell Internet Connectivity Test,Network Tools,Network Tools,Moderate,False,run.bat
+KEPT,Powershell_Kill_Proc,Powershell Kill Proc,Diagnostics,Processes and Services,High,True,run.bat
+KEPT,Powershell_Modules,Powershell Modules,System Information,System Information,Moderate,False,run.bat
+KEPT,Powershell_Old_Files,Powershell Old Files,System Information,System Information,Moderate,False,run.bat
+KEPT,Powershell_Privs,Powershell Privs,Security,Security,Moderate,False,run.bat
+KEPT,Powershell_Processes,Powershell Processes,Diagnostics,Processes and Services,Moderate,False,run.bat
+KEPT,Powershell_Pwpolicy,Powershell Pwpolicy,Security,Security,Moderate,False,run.bat
+KEPT,Powershell_Restart_Svc,Powershell Restart Svc,Diagnostics,Processes and Services,High,True,run.bat
+KEPT,Powershell_Routes,Powershell Routes,System Information,System Information,Moderate,False,run.bat
+KEPT,Powershell_Services,Powershell Services,Diagnostics,Processes and Services,Moderate,False,run.bat
+KEPT,Powershell_Sessions,Powershell Sessions,Diagnostics,Processes and Services,Moderate,False,run.bat
+KEPT,Powershell_Software,Powershell Software,System Information,System Information,Moderate,False,run.bat
+KEPT,Powershell_Start_Svc,Powershell Start Svc,Diagnostics,Processes and Services,High,True,run.bat
+KEPT,Powershell_Stopped_Svcs,Powershell Stopped Svcs,Diagnostics,Processes and Services,Moderate,False,run.bat
+KEPT,Powershell_TCP_Procs,Powershell TCP Procs,Network Tools,Network Tools,Moderate,False,run.bat
+KEPT,Powershell_TPM,Powershell TPM,System Information,System Information,High,True,run.bat
+KEPT,Powershell_Tasks,Powershell Tasks,Diagnostics,Processes and Services,Moderate,False,run.bat
+KEPT,Powershell_Threats,Powershell Threats,Security,Security,High,True,run.bat
+KEPT,Powershell_Uptime,Powershell Uptime,System Information,System Information,Moderate,False,run.bat
+KEPT,Powershell_Users_Groups,Powershell Users Groups,Security,Security,High,True,run.bat
+KEPT,Print_Flush,Print Flush,Printer Tools,Printer Tools,High,True,run.bat
+KEPT,Proxy_Check,Proxy Check,Network Tools,Network Tools,High,True,run.bat
+KEPT,Psmod_Carbon,Psmod Carbon,Setup and Install,Setup and Dependencies,High,True,run.bat
+KEPT,Psmod_Excel,Psmod Excel,Setup and Install,Setup and Dependencies,High,True,run.bat
+KEPT,Psmod_Wupdate,Psmod Wupdate,Setup and Install,Setup and Dependencies,High,True,run.bat
+KEPT,Quick_Cleanup,Quick Cleanup,Windows Repair,Automated Maintenance,High,True,run.bat
+KEPT,RAM_Info,RAM Info,System Information,System Information,Moderate,False,run.bat
+KEPT,RSAT_Ad,RSAT Ad,Setup and Install,Setup and Dependencies,High,True,run.bat
+KEPT,RSAT_DNS,RSAT DNS,Setup and Install,Setup and Dependencies,High,True,run.bat
+KEPT,RSAT_GP,RSAT GP,Setup and Install,Setup and Dependencies,High,True,run.bat
+KEPT,RSAT_Hyperv,RSAT Hyperv,Setup and Install,Windows Features,High,True,run.bat
+KEPT,Recent_Files,Recent Files,Windows Repair,System Cleanup,Moderate,False,run.bat
+KEPT,Run_DISM_Repair,Run DISM Repair,Windows Repair,Windows Repair,High,True,run.bat
+KEPT,SMB_Shares,SMB Shares,Network Tools,Network Tools,Moderate,False,run.bat
+KEPT,Safemode_Toggle,Safemode Toggle,System Information,System Information,High,True,run.bat
+KEPT,Setup_Check_Readonly,Setup Check Readonly,Setup and Install,Setup and Dependencies,High,True,run.bat
+KEPT,Setup_Depcheck_Builtin,Setup Depcheck Builtin,Setup and Install,Setup and Dependencies,High,True,run.bat
+KEPT,Setup_Depcheck_Full,Setup Depcheck Full,Setup and Install,Setup and Dependencies,High,True,run.bat
+KEPT,Setup_Depcheck_Tools,Setup Depcheck Tools,Setup and Install,Setup and Dependencies,High,True,run.bat
+KEPT,Smart_Status,Smart Status,System Information,System Information,High,True,run.bat
+KEPT,Startups,Startups,Diagnostics,Processes and Services,Moderate,False,run.bat
+KEPT,Storage_Pool,Storage Pool,Diagnostics,Storage,High,True,run.bat
+KEPT,Svc_Pid_Map,Svc Pid Map,Diagnostics,Processes and Services,Moderate,False,run.bat
+KEPT,Sysinfo,Sysinfo,System Information,System Information,Moderate,False,run.bat
+KEPT,Test_Internet_Connectivity,Test Internet Connectivity,Network Tools,Network Tools,Safe,False,run.bat
+KEPT,Unsigned_Drivers,Unsigned Drivers,Security,Security,High,True,run.bat
+KEPT,VSS_List,VSS List,Diagnostics,Storage,High,True,run.bat
+KEPT,View_Running_Services,View Running Services,Diagnostics,Advanced Tools,Safe,False,run.bat
+KEPT,View_System_Uptime,View System Uptime,System Information,Advanced Tools,Moderate,False,run.bat
+KEPT,WMI_Check,WMI Check,Windows Repair,Windows Repair,High,True,run.bat
+KEPT,WMI_Fullrepair,WMI Fullrepair,Windows Repair,Windows Repair,High,True,run.bat
+KEPT,WMI_Rebuild,WMI Rebuild,Windows Repair,Windows Repair,High,True,run.bat
+KEPT,WMI_Reregister,WMI Reregister,Windows Repair,Windows Repair,High,True,run.bat
+KEPT,WMI_Restart,WMI Restart,Windows Repair,Windows Repair,High,True,run.bat
+KEPT,WMI_Verify,WMI Verify,Windows Repair,Windows Repair,High,True,run.bat
+KEPT,WSL_Install,WSL Install,Setup and Install,Windows Features,High,True,run.bat
+KEPT,WSL_Safe_List,WSL Safe List,Setup and Install,Windows Features,High,True,run.bat
+KEPT,WSL_Shell,WSL Shell,Setup and Install,Windows Features,High,True,run.bat
+KEPT,WSL_Shutdown,WSL Shutdown,Setup and Install,Windows Features,High,True,run.bat
+KEPT,WSL_Status,WSL Status,Setup and Install,Windows Features,High,True,run.bat
+KEPT,WSL_Version,WSL Version,Setup and Install,Windows Features,High,True,run.bat
+KEPT,Wifi_Passwords,Wifi Passwords,Network Tools,Network Tools,High,True,run.bat
+KEPT,Winrm_Status,Winrm Status,Network Tools,Network Tools,Moderate,False,run.bat
+KEPT,Wsreset,Wsreset,Windows Repair,System Cleanup,High,True,run.bat
+EXCLUDED,Check_Winget,Already included in release/core module set,,,,,
+EXCLUDED,Clear_Temporary_Files,Duplicate of Clear_Windows_Temporary_Files,,,,,
+EXCLUDED,Clear_Thumb,Duplicate of Clear_Thumbnail_Cache,,,,,
+EXCLUDED,DISM_Repair_Block,Overlaps with Run_DISM_Repair,,,,,
+EXCLUDED,DNS_Flush,Already included in release/core module set,,,,,
+EXCLUDED,Do_Winget_All,Removed: program download/install/update workflow; use GitHub Puller/Repository workflow or dedicated winget tool later,,,,,
+EXCLUDED,Flush_DNS_Cache,Duplicate of DNS_Flush/clear DNS cache,,,,,
+EXCLUDED,Net_Reset,Overlaps with Net_Adapter_Reset,,,,,
+EXCLUDED,PowerShell_CLI_Activate,Removed: external activation-related code,,,,,
+EXCLUDED,PowerShell_MAS,Removed: external activation-related code,,,,,
+EXCLUDED,Print_Status,Already included in release/core module set,,,,,
+EXCLUDED,Quick_Summary,Already included in release/core module set,,,,,
+EXCLUDED,Repair_Winget_Full,Removed: program download/install/update workflow; use GitHub Puller/Repository workflow or dedicated winget tool later,,,,,
+EXCLUDED,Run_System_File_Checker,Already included in release/core module set,,,,,
+EXCLUDED,Win_Activation,Removed from release side patch: activation-related naming; keep only in private archive if needed,,,,,
+EXCLUDED,Windows_Update_Cache,Duplicate/overlap of Clear_Windows_Update_Cache,,,,,
+EXCLUDED,Winget_7zip,Removed: program download/install/update workflow; use GitHub Puller/Repository workflow or dedicated winget tool later,,,,,
+EXCLUDED,Winget_Git,Removed: program download/install/update workflow; use GitHub Puller/Repository workflow or dedicated winget tool later,,,,,
+EXCLUDED,Winget_Install_Engine,Removed: program download/install/update workflow; use GitHub Puller/Repository workflow or dedicated winget tool later,,,,,
+EXCLUDED,Winget_LHM,Removed: program download/install/update workflow; use GitHub Puller/Repository workflow or dedicated winget tool later,,,,,
+EXCLUDED,Winget_NPP,Removed: program download/install/update workflow; use GitHub Puller/Repository workflow or dedicated winget tool later,,,,,
+EXCLUDED,Winget_Nmap,Removed: program download/install/update workflow; use GitHub Puller/Repository workflow or dedicated winget tool later,,,,,
+EXCLUDED,Winget_PowerShell_RSAT_Setup_Full,Removed: program download/install/update workflow; use GitHub Puller/Repository workflow or dedicated winget tool later,,,,,
+EXCLUDED,Winget_Sysinternals,Removed: program download/install/update workflow; use GitHub Puller/Repository workflow or dedicated winget tool later,,,,,
+EXCLUDED,Winget_Windirstat,Removed: program download/install/update workflow; use GitHub Puller/Repository workflow or dedicated winget tool later,,,,,

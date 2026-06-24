@@ -1,0 +1,33 @@
+{
+  "framework_version": "2.0",
+  "policy": "Hardcode the foundation. Configure the behavior.",
+  "windows": {
+    "10": {
+      "status": "supported"
+    },
+    "11": {
+      "status": "supported"
+    },
+    "12": {
+      "status": "unknown",
+      "notes": "Validate with Compatibility Center before marking supported."
+    }
+  },
+  "powershell": {
+    "5.1": {
+      "status": "baseline"
+    },
+    "7": {
+      "status": "supported"
+    },
+    "8": {
+      "status": "unknown",
+      "notes": "Validate before marking supported."
+    }
+  },
+  "rules": {
+    "portable_mode": "supported",
+    "module_contract": "Modules/<Category>/<Module>/tool.json + run.ps1 or run.bat",
+    "user_content_policy": "Framework updates should not overwrite user modules."
+  }
+}

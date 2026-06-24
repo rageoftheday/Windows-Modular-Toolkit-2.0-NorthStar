@@ -1,0 +1,29 @@
+{
+  "name": "Compatibility Center",
+  "category": "Toolkit Management",
+  "subcategory": "Compatibility & Requirements",
+  "description": "Runs toolkit compatibility checks for OS, PowerShell, portable mode, modules, dependencies, and framework baseline.",
+  "keywords": [
+    "compatibility",
+    "requirements",
+    "powershell",
+    "portable",
+    "dependencies",
+    "health",
+    "report"
+  ],
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": true,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "High",
+  "framework_category": "Compatibility & Requirements"
+}

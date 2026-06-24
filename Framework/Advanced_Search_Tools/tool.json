@@ -1,0 +1,29 @@
+{
+  "name": "Advanced Search Tools",
+  "category": "Toolkit Management",
+  "subcategory": "Development & Testing",
+  "description": "Searches all tools with smart suggestions and retry loops. (Hidden legacy/absorbed entry retained for compatibility.)",
+  "keywords": [
+    "search",
+    "find",
+    "launch",
+    "tool",
+    "module",
+    "navigation"
+  ],
+  "risk": "Safe",
+  "requires_admin": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "version": "1.0",
+  "supports_logs": false,
+  "supports_export": false,
+  "hidden": true,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Low",
+  "framework_category": "Development & Testing"
+}

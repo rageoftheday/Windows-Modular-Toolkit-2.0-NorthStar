@@ -1,0 +1,37 @@
+$Root = Resolve-Path "$PSScriptRoot\..\.."
+
+
+. "$Root\core\bootstrap.ps1"
+# ============================================================
+# WINDOWS MODULAR TOOLKIT
+# Quick Summary
+# ============================================================
+
+$ErrorActionPreference = "Continue"
+
+Write-Host ""
+Write-Host "Quick System Summary" -ForegroundColor Cyan
+Write-Host ""
+
+try {
+    $OS = Get-CimInstance Win32_OperatingSystem
+    $CS = Get-CimInstance Win32_ComputerSystem
+    $Boot = $OS.LastBootUpTime
+    $Uptime = (Get-Date) - $Boot
+
+    Write-Host ("Computer Name : " + $CS.Name) -ForegroundColor Cyan
+    Write-Host ("Logged In As  : " + $CS.UserName) -ForegroundColor Cyan
+    Write-Host ("OS            : " + $OS.Caption + " (Build " + $OS.BuildNumber + ")") -ForegroundColor Cyan
+    Write-Host ("Architecture  : " + $OS.OSArchitecture) -ForegroundColor Cyan
+    Write-Host ("Last Boot     : " + $Boot) -ForegroundColor Cyan
+    Write-Host ("Uptime        : " + $Uptime.Days + "d " + $Uptime.Hours + "h " + $Uptime.Minutes + "m") -ForegroundColor Cyan
+    Write-Host ("Domain/WG     : " + $CS.Domain) -ForegroundColor Cyan
+}
+catch {
+    Write-Host "[ERROR] Could not collect system summary." -ForegroundColor Red
+    Write-Host $_.Exception.Message
+}
+
+Write-Host ""
+Write-Host "Quick summary complete."
+

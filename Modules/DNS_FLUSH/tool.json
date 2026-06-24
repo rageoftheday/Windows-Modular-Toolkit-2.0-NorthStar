@@ -1,0 +1,20 @@
+{
+  "name": "DNS Flush",
+  "category": "Network Tools",
+  "subcategory": "Network Tools",
+  "description": "Clears the Windows DNS resolver cache.",
+  "keywords": [
+    "dns",
+    "flush",
+    "toolkit",
+    "windows"
+  ],
+  "risk": "Moderate",
+  "requires_admin": true,
+  "supports_logs": true,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "important": false
+}

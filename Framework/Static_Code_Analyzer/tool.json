@@ -1,0 +1,33 @@
+{
+  "name": "Static Code Analyzer",
+  "category": "Toolkit Management",
+  "subcategory": "Development & Testing",
+  "description": "Reviews scripts for common coding or compatibility issues.",
+  "keywords": [
+    "static",
+    "code",
+    "analyzer",
+    "validation",
+    "batch",
+    "powershell",
+    "syntax",
+    "audit",
+    "toolkit",
+    "debug"
+  ],
+  "version": "1.0",
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": true,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Low",
+  "framework_category": "Development & Testing"
+}

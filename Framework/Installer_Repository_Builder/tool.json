@@ -1,0 +1,24 @@
+{
+  "name": "Repository Structure Validator",
+  "description": "Validate current repository asset folders and detect legacy repository folders.",
+  "category": "Toolkit Management",
+  "framework_category": "Repository",
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "entry": "run.bat",
+  "risk": "Low",
+  "keywords": [
+    "repository",
+    "structure",
+    "validator",
+    "folders",
+    "legacy",
+    "cleanup"
+  ],
+  "subcategory": "",
+  "requires_admin": false,
+  "supports_logs": false,
+  "supports_export": false,
+  "dependencies": [],
+  "hidden": false
+}

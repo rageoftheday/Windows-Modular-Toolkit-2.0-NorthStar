@@ -1,0 +1,42 @@
+WINDOWS MODULAR TOOLKIT - HOW TO USE
+============================================================
+
+Start here:
+Main Menu -> [H] Help Center -> [1] Help & Support
+
+For step-by-step instructions:
+Main Menu -> [H] Help Center -> [2] How To Guide
+
+For every shipped document:
+Main Menu -> [H] Help Center -> [1] Help & Support -> [13] All Documents
+
+Common tasks
+------------
+Import a file:
+Main Menu -> [R] Repository Manager -> [1] Repository Manager -> [1] Scan Incoming
+
+Download from GitHub:
+Main Menu -> [R] Repository Manager -> [2] GitHub Puller
+
+Make a module:
+Main Menu -> [M] Module Tool Manager -> Add Module / Module Builder
+
+Add keywords/categories/formats/detections:
+Main Menu -> [F] Framework Center -> Metadata Library Manager
+
+Repair/recover metadata:
+Main Menu -> [F] Framework Center -> Metadata Library Manager -> Library Recovery
+
+Navigation
+----------
+B = Back one level from any submenu.
+Q = Quit from the Main Menu only.
+
+
+How to use Winget Puller
+------------------------
+Main Menu -> [R] Repository Manager -> [3] Winget Puller
+
+Use Winget Puller to search Windows Package Manager packages, copy install commands, install on request, create Winget install modules, or save package records.
+
+Example searches: PowerShell, Visual Studio Code, 7-Zip, Git, Notepad++, Chrome, Firefox, VLC, OBS Studio.

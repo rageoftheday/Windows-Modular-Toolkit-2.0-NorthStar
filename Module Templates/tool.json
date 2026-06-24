@@ -1,0 +1,14 @@
+{
+  "name": "",
+  "category": "",
+  "subcategory": "",
+  "description": "",
+  "keywords": [],
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": false,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false
+}

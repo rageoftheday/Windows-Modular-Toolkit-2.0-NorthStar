@@ -1,0 +1,28 @@
+{
+  "name": "Backup File Cleanup",
+  "category": "Toolkit Management",
+  "subcategory": "Backup & Recovery",
+  "description": "Lists and optionally removes old toolkit backup files after validation.",
+  "keywords": [
+    "backup",
+    "cleanup",
+    "bak",
+    "legacy",
+    "toolkit"
+  ],
+  "version": "1.0",
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "High",
+  "framework_category": "Backup & Recovery"
+}

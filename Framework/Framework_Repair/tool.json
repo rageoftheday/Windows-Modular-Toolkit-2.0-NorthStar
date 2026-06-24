@@ -1,0 +1,29 @@
+{
+  "name": "Framework Repair",
+  "category": "Toolkit Management",
+  "subcategory": "Support & Repair",
+  "description": "Repairs framework-owned state such as required folders, registry cache, and default config without modifying user modules.",
+  "keywords": [
+    "repair",
+    "framework",
+    "registry",
+    "cache",
+    "config",
+    "recover",
+    "health"
+  ],
+  "risk": "Moderate",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": true,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "High",
+  "framework_category": "Support & Repair"
+}

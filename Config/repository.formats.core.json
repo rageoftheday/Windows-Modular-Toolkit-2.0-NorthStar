@@ -1,0 +1,146 @@
+{
+  "types": [
+    {
+      "type": "Software",
+      "folder": "Software",
+      "formats": [
+        "EXE",
+        "MSI"
+      ],
+      "extensions": [
+        ".exe",
+        ".msi"
+      ]
+    },
+    {
+      "type": "Packages",
+      "folder": "Packages",
+      "formats": [
+        "APPX",
+        "APPXBUNDLE",
+        "MSIX",
+        "MSIXBUNDLE"
+      ],
+      "extensions": [
+        ".appx",
+        ".appxbundle",
+        ".msix",
+        ".msixbundle"
+      ]
+    },
+    {
+      "type": "Scripts",
+      "folder": "Scripts",
+      "formats": [
+        "PS1"
+      ],
+      "extensions": [
+        ".ps1"
+      ]
+    },
+    {
+      "type": "Documents",
+      "folder": "Documents",
+      "formats": [
+        "TXT",
+        "MD",
+        "PDF",
+        "RTF",
+        "DOC",
+        "DOCX",
+        "DOT",
+        "DOTX",
+        "XLS",
+        "XLSX",
+        "XLSM",
+        "XLTX",
+        "CSV",
+        "TSV",
+        "ODS",
+        "PPT",
+        "PPTX",
+        "PPTM",
+        "POTX"
+      ],
+      "extensions": [
+        ".txt",
+        ".md",
+        ".pdf",
+        ".rtf",
+        ".doc",
+        ".docx",
+        ".dot",
+        ".dotx",
+        ".xls",
+        ".xlsx",
+        ".xlsm",
+        ".xltx",
+        ".csv",
+        ".tsv",
+        ".ods",
+        ".ppt",
+        ".pptx",
+        ".pptm",
+        ".potx"
+      ]
+    },
+    {
+      "type": "Archives",
+      "folder": "Archives",
+      "formats": [
+        "ZIP",
+        "7Z",
+        "RAR",
+        "CAB",
+        "TAR",
+        "GZ",
+        "BZ2",
+        "XZ",
+        "TGZ",
+        "TBZ",
+        "TXZ",
+        "TAR.GZ",
+        "TAR.BZ2",
+        "TAR.XZ"
+      ],
+      "extensions": [
+        ".zip",
+        ".7z",
+        ".rar",
+        ".cab",
+        ".tar",
+        ".gz",
+        ".bz2",
+        ".xz",
+        ".tgz",
+        ".tbz",
+        ".txz",
+        ".tar.gz",
+        ".tar.bz2",
+        ".tar.xz"
+      ]
+    },
+    {
+      "type": "Disk Images",
+      "folder": "Disk Images",
+      "formats": [
+        "ISO",
+        "IMG",
+        "WIM",
+        "ESD",
+        "FFU",
+        "VHD",
+        "VHDX"
+      ],
+      "extensions": [
+        ".iso",
+        ".img",
+        ".wim",
+        ".esd",
+        ".ffu",
+        ".vhd",
+        ".vhdx"
+      ]
+    }
+  ]
+}

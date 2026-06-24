@@ -1,0 +1,24 @@
+{
+  "name": "Metadata Library Manager",
+  "category": "Toolkit Management",
+  "subcategory": "Metadata",
+  "description": "Manages editable metadata library entries, backups, and restore options.",
+  "keywords": [
+    "metadata",
+    "library",
+    "categories",
+    "keywords",
+    "dependencies",
+    "backup",
+    "restore"
+  ],
+  "risk": "Moderate",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "framework_protected": true,
+  "module_scope": "framework"
+}

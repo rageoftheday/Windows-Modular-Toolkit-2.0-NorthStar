@@ -1,0 +1,106 @@
+{
+  "destinations": [
+    "Installers",
+    "Portable",
+    "Security",
+    "Browsers",
+    "Utilities",
+    "Drivers",
+    "Office",
+    "Networking",
+    "Custom"
+  ],
+  "supported_extensions": [
+    ".exe",
+    ".msi",
+    ".msix",
+    ".appx",
+    ".msixbundle",
+    ".appxbundle",
+    ".msp",
+    ".msu",
+    ".iso",
+    ".img",
+    ".zip",
+    ".7z",
+    ".rar",
+    ".tar",
+    ".gz"
+  ],
+  "software_types": [
+    "Installer",
+    "Bootstrap Installer",
+    "MSI Package",
+    "MSIX/AppX Package",
+    "Windows Update Package",
+    "Portable EXE",
+    "Portable Folder",
+    "PortableApps Package",
+    "ISO Image",
+    "Archive",
+    "Unknown"
+  ],
+  "silent_arguments": [
+    {
+      "name": "Quiet install",
+      "value": "/quiet /norestart",
+      "description": "Common quiet install with no restart"
+    },
+    {
+      "name": "Silent install",
+      "value": "/silent",
+      "description": "Common silent installer switch"
+    },
+    {
+      "name": "NSIS silent",
+      "value": "/S",
+      "description": "Common NSIS silent switch"
+    },
+    {
+      "name": "Inno very silent",
+      "value": "/VERYSILENT /NORESTART",
+      "description": "Common Inno Setup silent switch"
+    },
+    {
+      "name": "MSI quiet",
+      "value": "/qn /norestart",
+      "description": "MSI quiet install"
+    },
+    {
+      "name": "MSI basic UI",
+      "value": "/qb /norestart",
+      "description": "MSI basic UI with no restart"
+    },
+    {
+      "name": "MSI verbose log",
+      "value": "/qn /norestart /L*v install.log",
+      "description": "MSI quiet install with verbose log"
+    }
+  ],
+  "name_patterns": [
+    {
+      "pattern": "^7z(?<version>\\d{4})-.*\\.exe$",
+      "product": "7-Zip",
+      "type": "Installer",
+      "destination": "Utilities"
+    },
+    {
+      "pattern": "ChromeSetup.*\\.exe$",
+      "product": "Google Chrome",
+      "type": "Bootstrap Installer",
+      "destination": "Browsers"
+    },
+    {
+      "pattern": "(?<name>.+)Portable_(?<version>[0-9\\.]+)\\.paf\\.exe$",
+      "product": "{name} Portable",
+      "type": "PortableApps Package",
+      "destination": "Portable"
+    },
+    {
+      "pattern": "(?<name>.+)Portable.*\\.exe$",
+      "product": "{name} Portable",
+      "type": "Portable EXE",
+      "destination": "Portable"
+    }
+  ]
+}

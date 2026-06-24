@@ -1,0 +1,22 @@
+{
+  "name": "Search Foundation",
+  "description": "Search modules, workspace items, installers, documentation, and metadata with pagination.",
+  "category": "Toolkit Management",
+  "framework_category": "Framework Centers",
+  "keywords": [
+    "search",
+    "metadata",
+    "pagination",
+    "foundation",
+    "find"
+  ],
+  "entry": "run.bat",
+  "type": "Framework Tool",
+  "subcategory": "",
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": false,
+  "supports_export": false,
+  "dependencies": [],
+  "hidden": false
+}

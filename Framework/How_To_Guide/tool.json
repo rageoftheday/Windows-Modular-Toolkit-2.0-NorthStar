@@ -1,0 +1,27 @@
+{
+  "name": "How To Guide",
+  "category": "Toolkit Management",
+  "subcategory": "Support & Documentation",
+  "description": "Shows how to use the framework and common workflows.",
+  "keywords": [
+    "help",
+    "guide",
+    "howto",
+    "docs"
+  ],
+  "version": "1.0",
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": false,
+  "supports_export": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Medium",
+  "framework_category": "Support & Documentation"
+}

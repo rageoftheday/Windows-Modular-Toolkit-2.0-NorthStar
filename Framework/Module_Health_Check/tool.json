@@ -1,0 +1,31 @@
+{
+  "name": "Module Health Check",
+  "category": "Toolkit Management",
+  "subcategory": "Validation & Health",
+  "description": "Checks user modules for required files, valid JSON, current schema, and entry targets.",
+  "keywords": [
+    "module",
+    "health",
+    "check",
+    "json",
+    "run.bat",
+    "run.ps1",
+    "tool.json",
+    "validation"
+  ],
+  "version": "1.0",
+  "risk": "Safe",
+  "requires_admin": false,
+  "supports_logs": true,
+  "supports_export": true,
+  "entry": "run.bat",
+  "dependencies": [],
+  "hidden": false,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "High",
+  "framework_category": "Validation & Health"
+}

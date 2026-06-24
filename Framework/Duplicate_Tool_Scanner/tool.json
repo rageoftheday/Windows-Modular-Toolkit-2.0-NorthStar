@@ -1,0 +1,22 @@
+{
+  "name": "Duplicate Tool Scanner",
+  "category": "Toolkit Management",
+  "subcategory": "Audit & Reporting",
+  "description": "Finds possible duplicate user modules or framework entries.",
+  "risk": "Safe",
+  "requires_admin": false,
+  "entry": "run.bat",
+  "dependencies": [],
+  "keywords": [],
+  "version": "1.0",
+  "supports_logs": false,
+  "supports_export": false,
+  "hidden": true,
+  "module_scope": "Framework",
+  "framework_protected": true,
+  "allow_delete": false,
+  "allow_rename": false,
+  "allow_move": false,
+  "framework_priority": "Medium",
+  "framework_category": "Audit & Reporting"
+}

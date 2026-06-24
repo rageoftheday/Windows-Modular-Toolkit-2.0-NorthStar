@@ -1,0 +1,30 @@
+{
+    "Validate Modules": {
+        "folder": "Module_Validator",
+        "name": "Module Validator"
+    },
+    "Module Validator": {
+        "folder": "Module_Validator",
+        "name": "Module Validator"
+    },
+    "Toolkit Registry Builder": {
+        "folder": "Toolkit_Registry",
+        "name": "Toolkit Registry"
+    },
+    "Dry Run Module Validator": {
+        "folder": "Dry_Run_Module_Validator",
+        "name": "Dry Run Module Validator"
+    },
+    "Toolkit Health Center": {
+        "folder": "Toolkit_Health_Center",
+        "name": "Toolkit Health Center"
+    },
+    "Smart Recommendations Engine": {
+        "folder": "Smart_Recommendations_Engine",
+        "name": "Smart Recommendations Engine"
+    },
+    "Enhanced Dashboard": {
+        "folder": "Enhanced_Dashboard",
+        "name": "Enhanced Dashboard"
+    }
+}
