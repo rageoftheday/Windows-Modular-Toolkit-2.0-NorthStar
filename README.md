@@ -1,3 +1,6 @@
+<img src="Additional Files/Screenshots/NorthStar.png" alt="Alt Text" width="800">
+
+
 WINDOWS MODULAR TOOLKIT
 Framework Edition 2.0
 ==================================
